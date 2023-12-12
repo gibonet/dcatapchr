@@ -5,7 +5,7 @@
 #'
 #'
 #' @param catalog_endpoint URL/URI of the catalog endpoint
-#' @param datasets character vector with one or more dcat:dataset(s)
+#' @param datasets character vector with one or more dcat:dataset(s), see [dcat_dataset()]
 #'
 #' @export
 dcat_catalog <- function(catalog_endpoint = "https://swisstopo/catalog-endpoint.rdf",
