@@ -7,6 +7,7 @@ load_all(".")
 
 document()
 check_man()
+build_readme()
 # check()
 check(args = "--no-tests")
 
