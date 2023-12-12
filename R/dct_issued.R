@@ -9,6 +9,9 @@
 #' @export
 dct_issued <- function(date = Sys.Date(),
                        hour_minutes_seconds = "00:00:00") {
+  stopifnot(length(date) == 1L)
+  stopifnot(length(hour_minutes_seconds) == 1L)
+
   paste0(
     "<dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">",
     date,
