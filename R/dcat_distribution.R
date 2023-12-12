@@ -14,7 +14,8 @@
 #' @export
 dcat_distribution <- function(issued = dct_issued(),
                               access_url = dcat_accessURL(),
-                              rights = dct_rights()) {
+                              rights = dct_rights(),
+                              ...) {
 
   c(
     "<dcat:distribution>",
