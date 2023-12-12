@@ -1,0 +1,30 @@
+Partecipazione alle elezioni del Consiglio di Stato, per comune (stato al 21.11.2010), in Ticino, dal 1921 al 2011
+
+Fonte: Risultati ufficiali di elezioni e votazioni (1921-1999: Foglio ufficiale; 2003-2011: Risultati dello spoglio forniti dal Centro Sistemi Informativi, Bellinzona)
+Elaborazione: Ufficio di statistica (Ustat), Giubiasco
+
+https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioMeta&metId=1002&p1=40&p2=219&p3=221&proId=220&t=1
+
+Ultima modifica: 22.07.2020
+
+
+Variabili presenti nel cubo di dati:
+anno: l'anno dell'elezione
+comune_2011: comune, stato al 21.11.2010 (157 comuni). La categoria "Altra provenienza" cambia negli anni in funzione dei cambiamenti legislativi (es. altri cantoni, estero, militari, ecc.)
+cont_descrizione: etichetta statistica (vedi sotto la descrizione)
+valore: valori assoluti
+percentuale: partecipazione (rapporto tra votanti e iscritti), in %
+
+
+Descrizione delle statistiche (cont_descrizione):
+Iscritti: Iscritti al catalogo elettorale, aventi diritto di voto
+Votanti: Iscritti che hanno votato
+Astenuti: Iscritti che non hanno votato
+Schede bianche: Schede fatte pervenire al seggio, ma non compilate
+Schede nulle: Schede compilate in maniera non corretta
+Schede valide: Schede compilate correttamente, che recano dei voti per liste e/o candidati che vengono conteggiati
+Schede contestate: Schede che devono essere vagliate, per stabilire se considerarle valide oppure nulle
+
+
+Segni, simboli, abbreviazioni, sigle e concetti statistici usati nei prodotti dell'Ustat: http://www4.ti.ch/fileadmin/DFE/DR-USTAT/Prodotti/Definizioni/segni_sigle_simboli.pdf
+
