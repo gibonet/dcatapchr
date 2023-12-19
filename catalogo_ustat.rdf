@@ -53,12 +53,12 @@ dell'Ustat:
 http://www4.ti.ch/fileadmin/DFE/DR-USTAT/Prodotti/Definizioni/segni_sigle_simboli.pdf
 </dct:description>
         <dct:publisher>
-          <foaf:Organization rdf:about="https://www.ti.ch/ustat"/>
-            <foaf:name>Ustat</foaf:name:>
+          <foaf:Organization rdf:about="https://www.ti.ch/ustat">
+            <foaf:name>Ustat</foaf:name>
           </foaf:Organization>
         </dct:publisher>
         <dcat:contactPoint>
-          <vcard:Organization rdf:nodeID="gsyneohqbztaldimkrcwxjvfpu">
+          <vcard:Organization rdf:nodeID="lgafwuchrezbndvtsyikxqomjp">
             <vcard:hasEmail rdf:resource="mailto:dfe-ustat@ti.ch"/>
             <vcard:fn>dfe-ustat@ti.ch</vcard:fn>
           </vcard:Organization>
@@ -68,21 +68,21 @@ http://www4.ti.ch/fileadmin/DFE/DR-USTAT/Prodotti/Definizioni/segni_sigle_simbol
           <dcat:Distribution>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-14T00:00:00</dct:issued>
             <dcat:accessURL rdf:resource="https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_xlsx.zip"/>
-            NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+            <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
           <dcat:Distribution>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-14T00:00:00</dct:issued>
             <dcat:accessURL rdf:resource="https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip"/>
-            NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+            <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
           </dcat:Distribution>
         </dcat:distribution>
         <dcat:distribution>
           <dcat:Distribution>
             <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-14T00:00:00</dct:issued>
             <dcat:accessURL rdf:resource="https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"/>
-            NonCommercialAllowed-CommercialAllowed-ReferenceRequired
+            <dct:rights>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:rights>
           </dcat:Distribution>
         </dcat:distribution>
       </dcat:Dataset>
