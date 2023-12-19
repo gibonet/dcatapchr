@@ -23,7 +23,7 @@ dcat_catalog <- function(catalog_endpoint = "https://swisstopo/catalog-endpoint.
   l10 <- '  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"'
   l11 <- '  xmlns:schema="http://schema.org/"'
   l_end <- '>'
-  f1 <- c(l1, l2, l3, l4, l5, l6, l7, l8, l10, l11, l_end)
+  f1 <- c(l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l_end)
 
   l4 <- paste0(
     '  <dcat:Catalog rdf:about="', catalog_endpoint, '">'

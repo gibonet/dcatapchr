@@ -16,9 +16,9 @@ See for example:
 
 ## Classes of DCAT-AP CH
 
--   Catalog, `dcat:Catalog`, mandatory  
--   Dataset, `dcat:Dataset`, mandatory  
--   Distribution, `dcat:Distribution`, mandatory
+- Catalog, `dcat:Catalog`, mandatory  
+- Dataset, `dcat:Dataset`, mandatory  
+- Distribution, `dcat:Distribution`, mandatory
 
 Properties of `dcat:Catalog`:  
 - dataset, `dcat:dataset`, mandatory
@@ -138,21 +138,21 @@ catalog <- dcat_catalog(
 )
 
 head(catalog, n = 15)
-#>  [1] "<?xml version=\"1.0\" encoding=\"utf-8\" ?>"                                                                                                
-#>  [2] "<rdf:RDF "                                                                                                                                  
-#>  [3] "  xmlns:foaf=\"http://xmlns.com/foaf/0.1/\""                                                                                                
-#>  [4] "  xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\""                                                                                     
-#>  [5] "  xmlns:hydra=\"http://www.w3.org/ns/hydra/core#\""                                                                                         
-#>  [6] "  xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\""                                                                                
-#>  [7] "  xmlns:dcat=\"http://www.w3.org/ns/dcat#\""                                                                                                
-#>  [8] "  xmlns:dct=\"http://purl.org/dc/terms/\""                                                                                                  
-#>  [9] "  xmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\""                                                                                          
-#> [10] "  xmlns:schema=\"http://schema.org/\""                                                                                                      
-#> [11] ">"                                                                                                                                          
-#> [12] "  <dcat:Catalog rdf:about=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/digitale/catalogo_ustat.rdf\">"                                        
-#> [13] "    <dcat:dataset>"                                                                                                                         
-#> [14] "      <dcat:Dataset>"                                                                                                                       
-#> [15] "        <dct:title xml:lang=\"it\">Partecipazione alle elezioni del Consiglio di Stato, per comune, in Ticino, dal 1921 al 2011</dct:title>"
+#>  [1] "<?xml version=\"1.0\" encoding=\"utf-8\" ?>"                                                        
+#>  [2] "<rdf:RDF "                                                                                          
+#>  [3] "  xmlns:foaf=\"http://xmlns.com/foaf/0.1/\""                                                        
+#>  [4] "  xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\""                                             
+#>  [5] "  xmlns:hydra=\"http://www.w3.org/ns/hydra/core#\""                                                 
+#>  [6] "  xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\""                                        
+#>  [7] "  xmlns:dcat=\"http://www.w3.org/ns/dcat#\""                                                        
+#>  [8] "  xmlns:dct=\"http://purl.org/dc/terms/\""                                                          
+#>  [9] "  xmlns:vcard=\"http://www.w3.org/2006/vcard/ns#\""                                                 
+#> [10] "  xmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\""                                                  
+#> [11] "  xmlns:schema=\"http://schema.org/\""                                                              
+#> [12] ">"                                                                                                  
+#> [13] "  <dcat:Catalog rdf:about=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/digitale/catalogo_ustat.rdf\">"
+#> [14] "    <dcat:dataset>"                                                                                 
+#> [15] "      <dcat:Dataset>"
 
 
 tail(catalog, n = 20)

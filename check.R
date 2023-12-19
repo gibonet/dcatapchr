@@ -1,6 +1,7 @@
 
 
 # https://www.easyrdf.org/converter
+# https://opendata.swiss/fr/dataset/statistisches-jahrbuch-der-schweiz-18931.rdf
 
 # devtools (check, build, load, ...) ------------
 library(devtools)
@@ -50,6 +51,6 @@ report(cov, file = "dcatapchr-report.html")
 
 # pkgdown -----------------------------
 library(pkgdown)
-build_site()
+pkgdown::build_site()
 
 

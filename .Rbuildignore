@@ -6,3 +6,6 @@ check.R
 ^README\.Rmd$
 
 catalogo_ustat.rdf
+
+docs/
+statistisches-jahrbuch-der-schweiz-18931.rdf
