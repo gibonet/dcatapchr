@@ -16,8 +16,8 @@ dct_publisher <- function(publisher = "https://www.ti.ch/ustat",
 
   c(
     "<dct:publisher>",
-    paste0("  <foaf:Organization rdf:about=", publisher, "/>"),
-    paste0("    <foaf:name>", foaf_name, "</foaf:name:>"),
+    paste0("  <foaf:Organization rdf:about=", publisher, ">"),
+    paste0("    <foaf:name>", foaf_name, "</foaf:name>"),  # "</foaf:name:>"
     "  </foaf:Organization>",
     "</dct:publisher>"
   )
