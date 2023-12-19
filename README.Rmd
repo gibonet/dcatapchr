@@ -78,19 +78,25 @@ distributions <- c(
   dcat_distribution(
     issued = dct_issued("2021-10-14"), 
     access_url = dcat_accessURL("https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_xlsx.zip"), 
-    rights = "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+    rights = dct_rights(
+      "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+    )
   ),
   
   dcat_distribution(
     issued = dct_issued("2021-10-14"), 
     access_url = dcat_accessURL("https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip"), 
-    rights = "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+    rights = dct_rights(
+      "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+    )
   ),
   
   dcat_distribution(
     issued = dct_issued("2021-10-14"), 
     access_url = dcat_accessURL("https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"), 
-    rights = "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+    rights = dct_rights(
+      "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+    )
   )
 )
 
