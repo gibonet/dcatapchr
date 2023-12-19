@@ -1,5 +1,7 @@
 
 
+# https://www.easyrdf.org/converter
+
 # devtools (check, build, load, ...) ------------
 library(devtools)
 
@@ -49,3 +51,5 @@ report(cov, file = "dcatapchr-report.html")
 # pkgdown -----------------------------
 library(pkgdown)
 build_site()
+
+
