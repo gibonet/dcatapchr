@@ -20,6 +20,19 @@ install(upgrade = "never")
 test()
 
 
+# dct_description issue -------------------------
+# In the txt imported (with readLines) there is an
+# url, https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioMeta&metId=1002&p1=40&p2=219&p3=221&proId=220&t=1,
+# that does not pass the easyrdf validator
+# (https://www.easyrdf.org/converter).
+# Is there a way to make such an url to be "valid"
+# What is the problem?
+# - "=" character?
+# - "&" character?  --> YES, these are problematic
+#   - substitute & with %26  --> NO
+
+
+
 # Copia tar.gz nel progetto 00_copia_sorgenti_gib_packs -------------
 file.copy(
   "../dcatapchr_0.0.0.0.tar.gz", to = "../00_copia_sorgenti_gib_packs/"
