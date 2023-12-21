@@ -16,9 +16,9 @@ See for example:
 
 ## Classes of DCAT-AP CH
 
-- Catalog, `dcat:Catalog`, mandatory  
-- Dataset, `dcat:Dataset`, mandatory  
-- Distribution, `dcat:Distribution`, mandatory
+-   Catalog, `dcat:Catalog`, mandatory  
+-   Dataset, `dcat:Dataset`, mandatory  
+-   Distribution, `dcat:Distribution`, mandatory
 
 Properties of `dcat:Catalog`:  
 - dataset, `dcat:dataset`, mandatory
