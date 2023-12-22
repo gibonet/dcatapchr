@@ -59,7 +59,9 @@ library(dcatapchr)
 distributions <- c(
   dcat_distribution(
     issued = dct_issued("2021-10-14"), 
-    access_url = dcat_accessURL("https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_xlsx.zip"), 
+    access_url = dcat_accessURL(
+      "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_xlsx.zip"
+    ), 
     rights = dct_rights(
       "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
     )
@@ -67,7 +69,9 @@ distributions <- c(
   
   dcat_distribution(
     issued = dct_issued("2021-10-14"), 
-    access_url = dcat_accessURL("https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip"), 
+    access_url = dcat_accessURL(
+      "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip"
+    ), 
     rights = dct_rights(
       "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
     )
@@ -75,7 +79,9 @@ distributions <- c(
   
   dcat_distribution(
     issued = dct_issued("2021-10-14"), 
-    access_url = dcat_accessURL("https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"), 
+    access_url = dcat_accessURL(
+      "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"
+    ), 
     rights = dct_rights(
       "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
     )
@@ -113,6 +119,9 @@ description <- readLines(
 )
 description <- strwrap(description, width = 80)
 description <- paste(description, collapse = "\n")
+
+# Substitute & with &amp; in urls
+description <- gsub("&", "&amp;", description, fixed = TRUE)
 
 dataset <- dcat_dataset(
   title = dct_title(
