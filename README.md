@@ -3,16 +3,12 @@
 
 # dcatapchr
 
-<!-- badges: start -->
-<!-- badges: end -->
-
 The goal of dcatapchr is to create a metadata catalog compatible with
 the DCAT-AP CH standard.
 
 See for example:  
 - <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html>  
--
-<https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html>
+-<https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html>
 
 ## Classes of DCAT-AP CH
 
