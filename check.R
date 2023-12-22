@@ -31,6 +31,14 @@ test()
 # - "&" character?  --> YES, these are problematic
 #   - substitute & with %26  --> NO
 
+"https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=definizioni.fonti&amp;tema=35&amp;id=64&amp;proID=178&#13;"
+"https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=definizioni.fonti&tema=35&id=64&proID=178"
+
+tmp <- "https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioMeta&metId=1002&p1=40&p2=219&p3=221&proId=220&t=1"
+gsub("&", "&amp;", tmp, fixed = TRUE)
+
+# Sì così funziona
+
 
 
 # Copia tar.gz nel progetto 00_copia_sorgenti_gib_packs -------------

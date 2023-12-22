@@ -22,7 +22,7 @@ ufficiale; 2003-2011: Risultati dello spoglio forniti dal Centro Sistemi
 Informativi, Bellinzona)
 Elaborazione: Ufficio di statistica (Ustat), Giubiasco
 
-https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioMeta&metId=1002&p1=40&p2=219&p3=221&proId=220&t=1
+https://www3.ti.ch/DFE/DR/USTAT/index.php?fuseaction=temi.dettaglioMeta&amp;metId=1002&amp;p1=40&amp;p2=219&amp;p3=221&amp;proId=220&amp;t=1
 
 Ultima modifica: 22.07.2020
 
@@ -59,7 +59,7 @@ http://www4.ti.ch/fileadmin/DFE/DR-USTAT/Prodotti/Definizioni/segni_sigle_simbol
           </foaf:Organization>
         </dct:publisher>
         <dcat:contactPoint>
-          <vcard:Organization rdf:nodeID="ezpkqdxsvmnayjlgfurbwocith">
+          <vcard:Organization rdf:nodeID="tpuqwsvkajrimclndghezofyxb">
             <vcard:hasEmail rdf:resource="mailto:dfe-ustat@ti.ch"/>
             <vcard:fn>dfe-ustat@ti.ch</vcard:fn>
           </vcard:Organization>
