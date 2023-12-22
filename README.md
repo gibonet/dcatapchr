@@ -10,6 +10,9 @@ See for example <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html>
 and
 <https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html>
 
+See <https://ckan.opendata.swiss/api/3/action/harvest_source_list> for
+catalog examples.
+
 ## Classes of DCAT-AP CH
 
 -   Catalog, `dcat:Catalog`, mandatory  
