@@ -34,6 +34,15 @@ Properties of `dcat:Distribution`:
 - rights, `dct:rights`, mandatory  
 - … (other properties, conditional or optional)
 
+The properties above are those of DCAT-AP CH V1 (I think).
+
+There is now V2:  
+- <https://www.dcat-ap.ch/>  
+- <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html>
+
+-   <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#changes-overview>  
+-   <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dcat-ap-building-blocks>
+
 ## Installation
 
 You can install the development version of dcatapchr like so:
