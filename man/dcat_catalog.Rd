@@ -12,7 +12,8 @@ dcat_catalog(
 \arguments{
 \item{catalog_endpoint}{URL/URI of the catalog endpoint}
 
-\item{datasets}{character vector with one or more dcat:dataset(s), see \code{\link[=dcat_dataset]{dcat_dataset()}}}
+\item{datasets}{character vector with one or more dcat:dataset(s), see
+\code{\link[=dcat_dataset]{dcat_dataset()}}}
 }
 \description{
 Create a DCAT-AP CH Catalog (dcat:Catalog)
