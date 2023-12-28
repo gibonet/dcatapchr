@@ -69,7 +69,15 @@ Properties of `dcat:Catalog`:
 - publisher: `dct:publisher` (mandatory)  
 - title: `dct:title` (mandatory)  
 - dataset, `dcat:dataset`, recommended (V1: mandatory)  
-- … (other properties, recommended)
+- … (other properties, recommended)  
+- homepage, `foaf:homepage`, recommended  
+- language, `dct:language`, recommended  
+- issued, `dct:issued`, recommended  
+- rights, `dct:rights`, recommended  
+- service, `dcat:service`, recommended  
+- spatial, `dct:spatial`, recommended  
+- themeTaxonomy, `dcat:themeTaxonomy`, recommended  
+- modified, `dct:modified`, recommended
 
 Properties of `dcat:Dataset`:  
 - title, `dct:title`, mandatory, multilingual  
@@ -78,13 +86,25 @@ Properties of `dcat:Dataset`:
 - contact point, `dcat:contactPoint`, mandatory  
 - identifier, `dct:identifier`, mandatory  
 - distribution, `dcat:distribution`, recommended (V1: mandatory)  
-- … (other properties, recommended)
+- … (other properties, recommended)  
+- keyword, `dct:keyword`, recommended  
+- landingPage, `dcat:landingPage`, recommended  
+- issued, `dct:issued`, recommended  
+- spatial, `dct:spatial`, recommended  
+- temporal, `dct:temporal`, recommended  
+- theme, `dcat:theme`, recommended  
+- modified, `dct:modified`, recommended
 
 Properties of `dcat:Distribution`:  
 - access url, `dcat:accessURL`, mandatory  
 - license, `dct:license`, mandatory  
 - rights, `dct:rights`, recommended (V1: mandatory)  
-- … (other properties, recommended)
+- … (other properties, recommended)  
+- avaliability, `dcat:avaliability`, recommended  
+- description, `dct:description`, recommended  
+- format, `dct:format`, recommended  
+- title, `dct:title`, recommended  
+- modified, `dct:modified`, recommended
 
 ## Installation
 
