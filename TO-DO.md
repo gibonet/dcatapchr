@@ -28,7 +28,7 @@
 - [x] dcat:theme --> `dcat:theme()`  
 
 
-- [ ] dct:license --> `dct_license()`  
+- [x] dct:license --> `dct_license()`  
 - [ ] dcatap:availability --> `dcatap_availability()`  
 - [ ] dct:format --> `dct_format()`  
 
