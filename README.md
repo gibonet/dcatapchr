@@ -87,7 +87,7 @@ Properties of `dcat:Dataset`:
 - identifier, `dct:identifier`, mandatory  
 - distribution, `dcat:distribution`, recommended (V1: mandatory)  
 - … (other properties, recommended)  
-- keyword, `dct:keyword`, recommended  
+- keyword, `dcat:keyword`, recommended  
 - landingPage, `dcat:landingPage`, recommended  
 - issued, `dct:issued`, recommended  
 - spatial, `dct:spatial`, recommended  
