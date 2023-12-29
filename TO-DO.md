@@ -19,7 +19,7 @@
 - [ ] dcat:service --> `dcat_service()`  
 - [x] dct:spatial --> `dct_spatial()`  
 - [ ] dcat:themeTaxonomy --> `dcat_themeTaxonomy()`  
-- [ ] dct:modified --> `dct:modified()`  
+- [x] dct:modified --> `dct:modified()`  
 
 
 - [ ] dct:keyword --> `dct_keyword()`  
