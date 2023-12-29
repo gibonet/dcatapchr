@@ -10,9 +10,7 @@
 dct_language <- function(language = c("de", "fr", "it", "en")) {
   language <- language[1]
 
-  if (!(language %in% c("de", "fr", "it", "en"))) {
-    stop("Language must be one of de, fr, it or en")
-  }
+  check_language(language = language)
 
   paste0(
     "<dct:language>", language, "</dct:language>"
