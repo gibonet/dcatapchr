@@ -24,7 +24,7 @@
 
 - [x] dcat:keyword --> `dcat_keyword()`  
 - [x] dcat:landingPage --> `dcat_landingPage()`  
-- [ ] dct:temporal --> `dct:temporal()`  
+- [x] dct:temporal --> `dct:temporal()`  
 - [ ] dcat:theme --> `dcat:theme()`  
 
 
