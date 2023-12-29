@@ -22,7 +22,7 @@
 - [x] dct:modified --> `dct:modified()`  
 
 
-- [ ] dct:keyword --> `dct_keyword()`  
+- [x] dcat:keyword --> `dcat_keyword()`  
 - [ ] dcat:landingPage --> `dcat_landingPage()`  
 - [ ] dct:temporal --> `dct:temporal()`  
 - [ ] dcat:theme --> `dcat:theme()`  
