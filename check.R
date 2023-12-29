@@ -75,3 +75,19 @@ library(pkgdown)
 pkgdown::build_site()
 
 
+
+# trials ------------------------------
+library(xml2)
+
+x <- read_xml("https://www.web.statistik.zh.ch/ogd/harvester/stadt-winterthur.xml")
+y <- as_list(x)
+
+names(y)
+y$RDF
+
+names(y$RDF$Catalog$dataset)
+
+names(y$RDF$Catalog$dataset$Dataset)
+
+
+
