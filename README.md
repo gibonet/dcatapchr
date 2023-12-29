@@ -100,7 +100,7 @@ Properties of `dcat:Distribution`:
 - license, `dct:license`, mandatory  
 - rights, `dct:rights`, recommended (V1: mandatory)  
 - … (other properties, recommended)  
-- avaliability, `dcat:avaliability`, recommended  
+- availability, `dcatap:availability`, recommended  
 - description, `dct:description`, recommended  
 - format, `dct:format`, recommended  
 - title, `dct:title`, recommended  
