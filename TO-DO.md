@@ -15,7 +15,7 @@
 
 
 - [ ] foaf:homepage --> `foaf_homepage()`  
-- [ ] dct:language --> `dct_language()`  
+- [x] dct:language --> `dct_language()`  
 - [ ] dcat:service --> `dcat_service()`  
 - [ ] dct:spatial --> `dct_spatial()`  
 - [ ] dcat:themeTaxonomy --> `dcat_themeTaxonomy()`  
