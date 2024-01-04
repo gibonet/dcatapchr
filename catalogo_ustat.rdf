@@ -59,7 +59,7 @@ http://www4.ti.ch/fileadmin/DFE/DR-USTAT/Prodotti/Definizioni/segni_sigle_simbol
           </foaf:Organization>
         </dct:publisher>
         <dcat:contactPoint>
-          <vcard:Organization rdf:nodeID="tpuqwsvkajrimclndghezofyxb">
+          <vcard:Organization rdf:nodeID="nwyauqxdvprczmfljthokbisge">
             <vcard:hasEmail rdf:resource="mailto:dfe-ustat@ti.ch"/>
             <vcard:fn>dfe-ustat@ti.ch</vcard:fn>
           </vcard:Organization>

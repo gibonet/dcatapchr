@@ -218,6 +218,12 @@ head(catalog, n = 15)
 
 
 tail(catalog, n = 20)
-# writeLines(catalog, con = "catalogo_ustat.rdf", useBytes = TRUE)
+```
+
+Export to an rdf file:
+```{r eval=FALSE}
+f <- file("./catalogo_ustat.rdf", "wb")
+writeLines(catalog, con = f, useBytes = TRUE)
+close(f)
 ```
 

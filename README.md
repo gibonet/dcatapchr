@@ -253,5 +253,12 @@ tail(catalog, n = 20)
 #> [18] "    </dcat:dataset>"                                                                                                
 #> [19] "  </dcat:Catalog>"                                                                                                  
 #> [20] "</rdf:RDF>"
-# writeLines(catalog, con = "catalogo_ustat.rdf", useBytes = TRUE)
+```
+
+Export to an rdf file:
+
+``` r
+f <- file("./catalogo_ustat.rdf", "wb")
+writeLines(catalog, con = f, useBytes = TRUE)
+close(f)
 ```
