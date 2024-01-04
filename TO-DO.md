@@ -3,7 +3,7 @@ M: mandatory property
 R: recommended property  
 
 
-- [x] dcat:accessURL --> `dcat_accessURL()`  
+- [x] dcat:accessURL --> `dcat_accessURL()`. Goes in `dcat:Distribution` (M)  
 - [x] dcat:Catalog --> `dcat_catalog()` (review arguments)  
 - [x] dcat:contactPoint --> `dcat_contactPoint()`  
 - [x] dcat:Dataset / dcat:dataset --> `dcat_dataset()`  
