@@ -18,10 +18,19 @@ dcat_distribution(
 
 \item{license}{dct:license property, see \code{\link[=dct_license]{dct_license()}}.}
 
-\item{...}{other arguments (not yet implemented)
+\item{...}{any other property to be included to a dcat:Distribution
 
 Mandatory in V1, recommended in V2 (for \code{dcat:Dataset}, \code{\link[=dcat_dataset]{dcat_dataset()}})}
 }
 \description{
 Create a dcat:distribution/dcat:Distribution property
+}
+\examples{
+dcat_distribution()
+
+dcat_distribution(description = dct_description("Un archivio zip con un csv"))
+
+}
+\seealso{
+\code{\link[=dct_description]{dct_description()}}, \code{\link[=dct_title]{dct_title()}}, \code{\link[=dct_modified]{dct_modified()}}, \code{\link[=dct_format]{dct_format()}}, \code{\link[=dct_rights]{dct_rights()}}
 }
