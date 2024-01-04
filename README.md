@@ -256,7 +256,7 @@ tail(catalog, n = 20)
 #> [20] "</rdf:RDF>"
 ```
 
-Export to an rdf file:
+Export to an rdf file (with UNIX line endings):
 
 ``` r
 f <- file("./catalogo_ustat.rdf", "wb")
