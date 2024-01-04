@@ -151,7 +151,7 @@ distributions <- c(
     access_url = dcat_accessURL(
       "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_xlsx.zip"
     ), 
-    rights = dct_rights(
+    license = dct_license2(
       "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
     )
   ),
@@ -161,7 +161,7 @@ distributions <- c(
     access_url = dcat_accessURL(
       "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip"
     ), 
-    rights = dct_rights(
+    license = dct_license2(
       "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
     )
   ),
@@ -171,7 +171,7 @@ distributions <- c(
     access_url = dcat_accessURL(
       "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"
     ), 
-    rights = dct_rights(
+    licence = dct_license2(
       "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
     )
   )
