@@ -14,7 +14,7 @@ dcat_contactPoint(
 
 \item{email}{email address
 
-Mandatory property of \code{dcat:Dataset} (\link{dcat_dataset})}
+Mandatory property of \code{dcat:Dataset} (\code{\link[=dcat_dataset]{dcat_dataset()}})}
 }
 \description{
 Create a dcat:contactPoint property in DCAT-AP CH standard

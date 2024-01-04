@@ -11,9 +11,9 @@ dct_title(title = "", language = "it")
 
 \item{language}{language of the title (one of "it", "de", "fr", "en")
 
-Mandatory property of \code{dcat:Catalog} (V2) (\link{dcat_catalog}) and
-\code{dcat:Dataset} (\link{dcat_dataset}), recommended property of
-\code{dcat:Distribution} (\link{dcat_distribution})}
+Mandatory property of \code{dcat:Catalog} (V2) (\code{\link[=dcat_catalog]{dcat_catalog()}}) and
+\code{dcat:Dataset} (\code{\link[=dcat_dataset]{dcat_dataset()}}), recommended property of
+\code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}})}
 }
 \description{
 Create a dct:title property in DCAT-AP CH standard

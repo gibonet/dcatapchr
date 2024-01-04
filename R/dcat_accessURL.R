@@ -6,7 +6,9 @@
 #'
 #' @param access_url url of the resource
 #'
-#' Mandatory property of `dcat:Distribution` ([dcat_distribution])
+#'
+#'
+#' Mandatory property of `dcat:Distribution` ([dcat_distribution()])
 #'
 #'
 #' @export

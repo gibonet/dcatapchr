@@ -11,7 +11,7 @@ dcat_accessURL(
 \arguments{
 \item{access_url}{url of the resource
 
-Mandatory property of \code{dcat:Distribution} (\link{dcat_distribution})}
+Mandatory property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}})}
 }
 \description{
 Create a dcat:accessURL property in DCAT-AP CH standard
