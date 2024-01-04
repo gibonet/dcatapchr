@@ -27,7 +27,7 @@ dcat_dataset(
 
 \item{distribution}{one or more distributions, see \code{\link[=dcat_distribution]{dcat_distribution()}}}
 
-\item{...}{additional arguments (not yet implemented)}
+\item{...}{any other property to be included to a dcat:Dataset}
 }
 \description{
 A dcat:dataset must have one or more dcat:distribution(s).

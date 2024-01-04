@@ -10,7 +10,7 @@
 #' @param contactPoint contactPoint of the dataset, see [dcat_contactPoint()].
 #' @param identifier identifier of the dataset, see [dct_identifier()].
 #' @param distribution one or more distributions, see [dcat_distribution()]
-#' @param ... additional arguments (not yet implemented)
+#' @param ... any other property to be included to a dcat:Dataset
 #'
 #'
 #'
@@ -23,6 +23,14 @@ dcat_dataset <- function(title = dct_title(),
                          distribution = dcat_distribution(),
                          ...) {
 
+  dots <- list(...)
+  if (length(dots) == 0L) {
+    dots <- NULL
+  } else {
+    # Convert to (character) vector
+    dots <- unlist(dots)
+  }
+
   c(
     "<dcat:dataset>",
     "  <dcat:Dataset>",
@@ -32,6 +40,7 @@ dcat_dataset <- function(title = dct_title(),
     paste0("    ", contactPoint),
     paste0("    ", identifier),
     paste0("    ", distribution),
+    if (!is.null(dots)) paste0("    ", dots) else dots,
     "  </dcat:Dataset>",
     "</dcat:dataset>"
   )
