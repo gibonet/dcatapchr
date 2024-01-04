@@ -6,7 +6,8 @@
 \usage{
 dcat_catalog(
   catalog_endpoint = "https://swisstopo/catalog-endpoint.rdf",
-  datasets = "<dcat:dataset rdf:resource=\\"https://swisstopo/123\\"/>"
+  datasets = "<dcat:dataset rdf:resource=\\"https://swisstopo/123\\"/>",
+  ...
 )
 }
 \arguments{
@@ -14,7 +15,21 @@ dcat_catalog(
 
 \item{datasets}{character vector with one or more dcat:dataset(s), see
 \code{\link[=dcat_dataset]{dcat_dataset()}}}
+
+\item{...}{any other property to be included to a dcat:Catalog}
 }
 \description{
 Create a DCAT-AP CH Catalog (dcat:Catalog)
+}
+\examples{
+dcat_catalog()
+dcat_catalog(catalog_endpoint = "")
+
+
+# Add some properties (...)
+dcat_catalog(
+  title = dct_title("Catalogo Ustat", language = "it"),
+  description = dct_description("Descrizione catalogo", language = "it")
+)
+
 }
