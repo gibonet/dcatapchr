@@ -5,7 +5,7 @@ R: recommended property
 
 - [x] dcat:accessURL --> `dcat_accessURL()`. Goes in `dcat:Distribution` (M)  
 - [x] dcat:Catalog --> `dcat_catalog()` (review arguments)  
-- [x] dcat:contactPoint --> `dcat_contactPoint()`  
+- [x] dcat:contactPoint --> `dcat_contactPoint()`. Goes in `dcat:Dataset` (M)  
 - [x] dcat:Dataset / dcat:dataset --> `dcat_dataset()`  
 - [x] dcat:Distribution / dcat:distribution --> `dcat_distribution()`  
 - [x] dct:description --> `dct_description()`  

@@ -13,6 +13,7 @@
 #' @param ... additional arguments (not yet implemented)
 #'
 #'
+#'
 #' @export
 dcat_dataset <- function(title = dct_title(),
                          description = dct_description(),
