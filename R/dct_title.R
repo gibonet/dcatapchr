@@ -7,6 +7,10 @@
 #' @param title character string with a title
 #' @param language language of the title (one of "it", "de", "fr", "en")
 #'
+#' Mandatory property of `dcat:Catalog` (V2) ([dcat_catalog]) and
+#' `dcat:Dataset` ([dcat_dataset]), recommended property of
+#' `dcat:Distribution` ([dcat_distribution])
+#'
 #'
 #' @export
 dct_title <- function(title = "", language = "it") {
