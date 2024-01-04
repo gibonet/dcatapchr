@@ -1,4 +1,6 @@
 
+M: mandatory property  
+R: recommended property  
 
 
 - [x] dcat:accessURL --> `dcat_accessURL()`  
@@ -11,7 +13,7 @@
 - [x] dct:issued --> `dct_issued()`  
 - [x] dct:publisher --> `dct_publisher()`  
 - [x] dct:rights --> `dct_rights()`  
-- [x] dct:title --> `dct_title()`  
+- [x] dct:title --> `dct_title()`. Goes in `dcat:Catalog` (V2, M), `dcat:Dataset` (M), `dcat:Distribution` (R)   
 
 
 - [ ] foaf:homepage --> `foaf_homepage()`  
