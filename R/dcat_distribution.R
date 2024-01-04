@@ -7,9 +7,16 @@
 #' @param issued dct:issued property, see [dct_issued()].
 #' @param access_url dcat:accessURL property, see [dcat_accessURL()].
 #' @param license dct:license property, see [dct_license()].
-#' @param ... other arguments (not yet implemented)
+#' @param ... any other property to be included to a dcat:Distribution
 #'
 #' Mandatory in V1, recommended in V2 (for `dcat:Dataset`, [dcat_dataset()])
+#'
+#' @seealso [dct_description()], [dct_title()], [dct_modified()], [dct_format()], [dct_rights()]
+#'
+#' @examples
+#' dcat_distribution()
+#'
+#' dcat_distribution(description = dct_description("Un archivio zip con un csv"))
 #'
 #' @export
 dcat_distribution <- function(issued = dct_issued(),
@@ -21,6 +28,7 @@ dcat_distribution <- function(issued = dct_issued(),
   if (length(dots) == 0L) {
     dots <- NULL
   } else {
+    # Convert to (character) vector
     dots <- unlist(dots)
   }
 
@@ -30,6 +38,7 @@ dcat_distribution <- function(issued = dct_issued(),
     paste0("    ", issued),
     paste0("    ", access_url),
     paste0("    ", license),
+    if (!is.null(dots)) paste0("    ", dots) else dots,
     "  </dcat:Distribution>",
     "</dcat:distribution>"
   )
