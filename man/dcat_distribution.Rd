@@ -7,7 +7,7 @@
 dcat_distribution(
   issued = dct_issued(),
   access_url = dcat_accessURL(),
-  rights = dct_rights(),
+  license = dct_license2(),
   ...
 )
 }
@@ -16,11 +16,11 @@ dcat_distribution(
 
 \item{access_url}{dcat:accessURL property, see \code{\link[=dcat_accessURL]{dcat_accessURL()}}.}
 
-\item{rights}{dct:rights property, see \code{\link[=dct_rights]{dct_rights()}}.}
+\item{license}{dct:license property, see \code{\link[=dct_license]{dct_license()}}.}
 
 \item{...}{other arguments (not yet implemented)
 
-Mandatory in V1, recommended in V2 (for \code{dcat:Dataset}, \link{dcat_dataset})}
+Mandatory in V1, recommended in V2 (for \code{dcat:Dataset}, \code{\link[=dcat_dataset]{dcat_dataset()}})}
 }
 \description{
 Create a dcat:distribution/dcat:Distribution property

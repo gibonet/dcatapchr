@@ -6,23 +6,30 @@
 #'
 #' @param issued dct:issued property, see [dct_issued()].
 #' @param access_url dcat:accessURL property, see [dcat_accessURL()].
-#' @param rights dct:rights property, see [dct_rights()].
+#' @param license dct:license property, see [dct_license()].
 #' @param ... other arguments (not yet implemented)
 #'
-#' Mandatory in V1, recommended in V2 (for `dcat:Dataset`, [dcat_dataset])
+#' Mandatory in V1, recommended in V2 (for `dcat:Dataset`, [dcat_dataset()])
 #'
 #' @export
 dcat_distribution <- function(issued = dct_issued(),
                               access_url = dcat_accessURL(),
-                              rights = dct_rights(),
+                              license = dct_license2(),
                               ...) {
+
+  dots <- list(...)
+  if (length(dots) == 0L) {
+    dots <- NULL
+  } else {
+    dots <- unlist(dots)
+  }
 
   c(
     "<dcat:distribution>",
     "  <dcat:Distribution>",
     paste0("    ", issued),
     paste0("    ", access_url),
-    paste0("    ", rights),
+    paste0("    ", license),
     "  </dcat:Distribution>",
     "</dcat:distribution>"
   )
