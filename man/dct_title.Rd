@@ -9,7 +9,11 @@ dct_title(title = "", language = "it")
 \arguments{
 \item{title}{character string with a title}
 
-\item{language}{language of the title (one of "it", "de", "fr", "en")}
+\item{language}{language of the title (one of "it", "de", "fr", "en")
+
+Mandatory property of \code{dcat:Catalog} (V2) (\link{dcat_catalog}) and
+\code{dcat:Dataset} (\link{dcat_dataset}), recommended property of
+\code{dcat:Distribution} (\link{dcat_distribution})}
 }
 \description{
 Create a dct:title property in DCAT-AP CH standard

@@ -9,7 +9,9 @@ dcat_accessURL(
 )
 }
 \arguments{
-\item{access_url}{url of the resource}
+\item{access_url}{url of the resource
+
+Mandatory property of \code{dcat:Distribution} (\link{dcat_distribution})}
 }
 \description{
 Create a dcat:accessURL property in DCAT-AP CH standard

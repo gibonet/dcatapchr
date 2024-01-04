@@ -4,6 +4,8 @@
 #   <rdf:type rdf:resource="http://purl.org/dc/terms/RightsStatement"/>
 # </dct:license>
 
+# <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:license>
+
 
 # See https://www.dcat-ap.ch/vocabulary/licenses/20210623.html
 
@@ -23,5 +25,25 @@ dct_license <- function(about = "http://dcat-ap.ch/vocabulary/licenses/terms_ope
     ),
     "  <rdf:type rdf:resource=\"http://purl.org/dc/terms/RightsStatement\"/>",
     "</dct:license>"
+  )
+}
+
+
+#' @rdname dct_license
+#'
+#' @inheritParams dct_rights
+#'
+#' @export
+#'
+dct_license2 <- function(license = c(
+  "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired",
+  "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+  "NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired",
+  "NonCommercialAllowed-CommercialWithPermission-ReferenceRequired"
+)) {
+  license <- license[1]
+
+  paste0(
+    "<dct:license>", license, "</dct:license>"
   )
 }

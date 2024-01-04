@@ -2,12 +2,25 @@
 % Please edit documentation in R/dct_license.R
 \name{dct_license}
 \alias{dct_license}
+\alias{dct_license2}
 \title{Create a dct:license property in DCAT-AP CH standard}
 \usage{
 dct_license(about = "http://dcat-ap.ch/vocabulary/licenses/terms_open")
+
+dct_license2(
+  license = c("NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired",
+    "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+    "NonCommercialAllowed-CommercialWithPermission-ReferenceNotRequired",
+    "NonCommercialAllowed-CommercialWithPermission-ReferenceRequired")
+)
 }
 \arguments{
 \item{about}{a dct:license uri. See https://www.dcat-ap.ch/vocabulary/licenses/20210623.html}
+
+\item{license}{one of the licenses allowed in opendata.swiss
+
+See also https://dcat-ap.ch/vocabulary/licenses/20210623.html#terms_open for a
+list of possible licenses.}
 }
 \description{
 Create a dct:license property in DCAT-AP CH standard

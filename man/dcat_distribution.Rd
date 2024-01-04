@@ -18,7 +18,9 @@ dcat_distribution(
 
 \item{rights}{dct:rights property, see \code{\link[=dct_rights]{dct_rights()}}.}
 
-\item{...}{other arguments (not yet implemented)}
+\item{...}{other arguments (not yet implemented)
+
+Mandatory in V1, recommended in V2 (for \code{dcat:Dataset}, \link{dcat_dataset})}
 }
 \description{
 Create a dcat:distribution/dcat:Distribution property

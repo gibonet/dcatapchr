@@ -12,7 +12,9 @@ dcat_contactPoint(
 \arguments{
 \item{nodeID}{organization id (character string)}
 
-\item{email}{email address}
+\item{email}{email address
+
+Mandatory property of \code{dcat:Dataset} (\link{dcat_dataset})}
 }
 \description{
 Create a dcat:contactPoint property in DCAT-AP CH standard
