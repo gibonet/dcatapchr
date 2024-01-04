@@ -7,7 +7,7 @@ R: recommended property
 - [x] dcat:Catalog --> `dcat_catalog()` (review arguments)  
 - [x] dcat:contactPoint --> `dcat_contactPoint()`. Goes in `dcat:Dataset` (M)  
 - [x] dcat:Dataset / dcat:dataset --> `dcat_dataset()`  
-- [x] dcat:Distribution / dcat:distribution --> `dcat_distribution()`  
+- [x] dcat:Distribution / dcat:distribution --> `dcat_distribution()`. Goes in `dcat:Dataset` (M in V1, R in V2)  
 - [x] dct:description --> `dct_description()`  
 - [x] dct:identifier --> `dct_identifier()`  
 - [x] dct:issued --> `dct_issued()`  

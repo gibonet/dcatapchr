@@ -9,7 +9,7 @@
 #' @param rights dct:rights property, see [dct_rights()].
 #' @param ... other arguments (not yet implemented)
 #'
-#'
+#' Mandatory in V1, recommended in V2 (for `dcat:Dataset`, [dcat_dataset])
 #'
 #' @export
 dcat_distribution <- function(issued = dct_issued(),
