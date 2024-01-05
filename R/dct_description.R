@@ -10,6 +10,10 @@
 #'
 #' @export
 dct_description <- function(description = "", language = "it") {
+  if (length(description) != 1L) {
+    stop("description should be a character vector of length one.\n")
+  }
+
   language <- language[1]
 
   check_language(language = language)
