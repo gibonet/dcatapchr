@@ -14,6 +14,7 @@ See <https://ckan.opendata.swiss/api/3/action/harvest_source_list> for
 catalog examples. See
 <https://www.web.statistik.zh.ch/ogd/harvester/stadt-winterthur.xml> or
 <https://www.web.statistik.zh.ch/ogd/harvester/statistisches-amt-kanton-zuerich.xml>
+or <https://ckan-prod.zurich.datopian.com/catalog.rdf>
 
 ## Classes of DCAT-AP CH
 
