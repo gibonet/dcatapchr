@@ -10,8 +10,9 @@
 #'
 #' @export
 dct_description <- function(description = "", language = "it") {
-  stopifnot(length(language) == 1L)
-  stopifnot(language %in% c("it", "de", "fr", "en"))
+  language <- language[1]
+
+  check_language(language = language)
 
   language <- add_quotes(language)
 
