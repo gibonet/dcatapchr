@@ -8,7 +8,7 @@
 #'
 #' @param freq frequency with which a dataset is updated (see [https://publications.europa.eu/resource/authority/frequency](https://publications.europa.eu/resource/authority/frequency))
 #'
-#'
+#' @export
 dct_accrualPeriodicity <- function(freq = c("https://publications.europa.eu/resource/authority/frequency/ANNUAL",
                                          "https://publications.europa.eu/resource/authority/frequency/QUARTERLY",
                                          "https://publications.europa.eu/resource/authority/frequency/MONTHLY",
