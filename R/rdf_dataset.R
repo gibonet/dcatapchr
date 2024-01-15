@@ -19,9 +19,11 @@ rdf_dataset <- function(dataset = dcat_dataset(), namespaces = c(
   'xmlns:xsd="http://www.w3.org/2001/XMLSchema#"',
   'xmlns:schema="http://schema.org/"'
 )) {
+  # Eliminate dcat:dataset tags
+  k <- grep("dcat:dataset", dataset, fixed = TRUE)
   c(
     rdf_namespaces(),
-    dataset,
+    dataset[-k],
     "</rdf:RDF>"
   )
 }
