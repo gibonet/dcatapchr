@@ -16,7 +16,7 @@ R: recommended property
 - [x] dct:title --> `dct_title()`. Goes in `dcat:Catalog` (V2, M), `dcat:Dataset` (M), `dcat:Distribution` (R)   
 
 
-- [ ] foaf:homepage --> `foaf_homepage()`  
+- [x] foaf:homepage --> `foaf_homepage()`  
 - [x] dct:language --> `dct_language()`  
 - [ ] dcat:service --> `dcat_service()`  
 - [x] dct:spatial --> `dct_spatial()`  
