@@ -9,7 +9,7 @@
 #' @export
 write_unix <- function(x, filename) {
   f <- file(filename, "wb")
-  writeLines(x, con = f, useBytes = TRUE)
+  writeLines(enc2utf8(x), con = f, useBytes = TRUE)
   close(f)
 }
 
