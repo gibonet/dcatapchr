@@ -21,6 +21,7 @@ R: recommended property
 - [ ] dcat:service --> `dcat_service()`  
 - [x] dct:spatial --> `dct_spatial()`  
 - [ ] dcat:themeTaxonomy --> `dcat_themeTaxonomy()`  
+    - Vedi sotto per un esempio...  
 - [x] dct:modified --> `dct:modified()`  
 
 
@@ -32,10 +33,21 @@ R: recommended property
 
 - [x] dct:license --> `dct_license()`  
 - [ ] dcatap:availability --> `dcatap_availability()`  
+    - https://publications.europa.eu/resource/authority/planned-availability  
+    - ...  
 - [x] dct:format --> `dct_format()`  
 
 
 
+Esempio di dcat:themeTaxonomy:  
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
 
+  <dcat:Catalog rdf:about="https://swisstopo/opendata/catalog">
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+  </dcat:Catalog>
+
+</rdf:RDF>
 
 
