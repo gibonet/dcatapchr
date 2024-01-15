@@ -260,7 +260,8 @@ tail(catalog, n = 20)
 Export to an rdf file (with UNIX line endings):
 
 ``` r
-f <- file("./catalogo_ustat.rdf", "wb")
-writeLines(catalog, con = f, useBytes = TRUE)
-close(f)
+# f <- file("./catalogo_ustat.rdf", "wb")
+# writeLines(catalog, con = f, useBytes = TRUE)
+# close(f)
+write_unix(catalog, filename = "catalogo_ustat.rdf")
 ```
