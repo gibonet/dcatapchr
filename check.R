@@ -57,7 +57,7 @@ library(usethis)
 
 use_testthat()
 
-use_test("nome_funzione")
+use_test("add_quotes")
 
 
 # covr::package_coverage() ------------
