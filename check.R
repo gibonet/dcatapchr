@@ -85,6 +85,7 @@ use_test("dct_title")
 use_test("foaf_homepage")
 use_test("indent")
 use_test("rdf_dataset")
+use_test("write_unix")
 
 
 
