@@ -84,6 +84,7 @@ use_test("dct_temporal")
 use_test("dct_title")
 use_test("foaf_homepage")
 use_test("indent")
+use_test("rdf_dataset")
 
 
 
