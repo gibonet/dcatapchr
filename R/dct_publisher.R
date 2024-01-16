@@ -12,6 +12,9 @@
 dct_publisher <- function(publisher = "https://www.ti.ch/ustat",
                           foaf_name = "Ufficio di statistica del Cantone Ticino (Ustat)") {
 
+  stopifnot(length(publisher) == 1L)
+  stopifnot(length(foaf_name) == 1L)
+
   publisher <- add_quotes(publisher)
 
   c(
