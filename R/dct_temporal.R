@@ -17,6 +17,9 @@
 #'
 #' @export
 dct_temporal <- function(startDate = Sys.Date() - 1, endDate = Sys.Date()) {
+  stopifnot(length(startDate) == 1L)
+  stopifnot(length(endDate) == 1L)
+
   stopifnot(startDate <= endDate)
 
   rdf_datatype <- "http://www.w3.org/2001/XMLSchema#date"
