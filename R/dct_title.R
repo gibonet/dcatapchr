@@ -16,6 +16,7 @@
 #'
 #' @export
 dct_title <- function(title = "", language = "it") {
+  stopifnot(length(title) == 1L)
   stopifnot(length(language) == 1L)
   stopifnot(language %in% c("it", "de", "fr", "en"))
 
