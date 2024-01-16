@@ -18,6 +18,7 @@ build()
 install(upgrade = "never")
 
 test()
+check()  # check() + test()
 
 
 # dct_description issue -------------------------
@@ -58,6 +59,8 @@ library(usethis)
 use_testthat()
 
 use_test("add_quotes")
+use_test("check_language")
+use_test("dcat_accessURL")
 
 
 # covr::package_coverage() ------------
