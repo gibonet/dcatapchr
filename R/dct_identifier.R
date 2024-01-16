@@ -8,6 +8,8 @@
 #'
 #' @export
 dct_identifier <- function(identifier = "xyz456@cantone_ticino") {
+  stopifnot(length(identifier) == 1L)
+
   paste0(
     "<dct:identifier>",
     identifier,
