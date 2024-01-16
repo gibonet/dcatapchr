@@ -13,3 +13,9 @@ test_that("dcat_catalog accepts additional arguments (...)", {
   )
 })
 
+test_that("dcat_catalog accepts NULL, NA or '' as catalog_endpoint", {
+  expect_type(dcat_catalog(catalog_endpoint = NULL), "character")
+  expect_type(dcat_catalog(catalog_endpoint = NA), "character")
+  expect_type(dcat_catalog(catalog_endpoint = ""), "character")
+})
+
