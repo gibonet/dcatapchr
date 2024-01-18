@@ -2,6 +2,7 @@
 
 export(add_quotes)
 export(dcat_DataService)
+export(dcat_accessService)
 export(dcat_accessURL)
 export(dcat_catalog)
 export(dcat_contactPoint)

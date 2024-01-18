@@ -93,6 +93,7 @@ use_test("dcat_endpointURL")
 use_test("dcat_enpointDescription")
 use_test("dcat_DataService")
 use_test("dcat_servesDataset")
+use_test("dcat_accessService")
 
 
 # covr::package_coverage() ------------
