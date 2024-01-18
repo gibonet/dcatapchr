@@ -40,6 +40,7 @@ R: recommended property
 
 
 Esempio di dcat:themeTaxonomy:  
+```
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:dcat="http://www.w3.org/ns/dcat#">
@@ -49,5 +50,5 @@ Esempio di dcat:themeTaxonomy:
   </dcat:Catalog>
 
 </rdf:RDF>
-
+```
 
