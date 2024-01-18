@@ -2,7 +2,7 @@
 % Please edit documentation in R/dcat_dataset.R
 \name{dcat_dataset}
 \alias{dcat_dataset}
-\title{Create a DCAT-AP CH Catalog (dcat:dataset)}
+\title{Create a DCAT-AP CH Dataset (dcat:dataset)}
 \usage{
 dcat_dataset(
   title = dct_title(),
@@ -29,6 +29,29 @@ dcat_dataset(
 
 \item{...}{any other property to be included to a dcat:Dataset}
 }
+\value{
+A character vector of length greater than one.
+}
 \description{
 A dcat:dataset must have one or more dcat:distribution(s).
+}
+\details{
+A dcat:Dataset class, created with dcat_dataset(),
+can/must have the following properties (M stands
+for mandatory; R for recommended):
+\itemize{
+\item dcat:contactPoint, M in V1 and V2: see \code{\link[=dcat_contactPoint]{dcat_contactPoint()}}
+\item dct:description, M in V1 and V2: see \code{\link[=dct_description]{dct_description()}}
+\item dct:identifier, M in V1 and V2: see \code{\link[=dct_identifier]{dct_identifier()}}
+\item dct:publisher, M in V1 and V2: see \code{\link[=dct_publisher]{dct_publisher()}}
+\item dct:title, M in V1 and V2: see \code{\link[=dct_title]{dct_title()}}
+\item dcat:distribution, M in V1, R in V2: see \code{\link[=dcat_distribution]{dcat_distribution()}}
+\item dcat:keyword, R in V2: see \code{\link[=dcat_keyword]{dcat_keyword()}}
+\item dcat:landingPage, R in V2: see \code{\link[=dcat_landingPage]{dcat_landingPage()}}
+\item dct:issued, R in V2: see \code{\link[=dct_issued]{dct_issued()}}
+\item dct:spatial, R in V2: see \code{\link[=dct_spatial]{dct_spatial()}}
+\item dct:temporal, R in V2: see \code{\link[=dct_temporal]{dct_temporal()}}
+\item dcat:theme, R in V2: see \code{\link[=dcat_theme]{dcat_theme()}}
+\item dct:modified, R in V2: see \code{\link[=dct_modified]{dct_modified()}}
+}
 }
