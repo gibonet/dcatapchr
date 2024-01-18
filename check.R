@@ -87,7 +87,10 @@ use_test("indent")
 use_test("rdf_dataset")
 use_test("write_unix")
 use_test("dcat_themeTaxonomy")
-
+use_test("dcat_service")
+use_test("dcat_endpointURL")
+use_test("dcat_enpointDescription")
+use_test("dcat_DataService")
 
 
 # covr::package_coverage() ------------
