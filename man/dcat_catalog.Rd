@@ -18,8 +18,35 @@ dcat_catalog(
 
 \item{...}{any other property to be included to a dcat:Catalog}
 }
+\value{
+A character vector of length greater than one,
+where each element is a line of the catalog in rdf
+format. The catalog can be exported in a file with
+unix file endings and UTF-8 encoding with
+\code{\link[=write_unix]{write_unix()}}.
+}
 \description{
 Create a DCAT-AP CH Catalog (dcat:Catalog)
+}
+\details{
+A dcat:Catalog class, created with dcat_catalog(),
+can/must have the following properties (M stands
+for mandatory; R for recommended):
+\itemize{
+\item dcat:dataset, M in V1, R in V2: see \code{\link[=dcat_dataset]{dcat_dataset()}}
+\item dct:description, M in V2: see \code{\link[=dct_description]{dct_description()}}
+\item dct:publisher, M in V2: see \code{\link[=dct_publisher]{dct_publisher()}}
+\item dct:title, M in V2: see \code{\link[=dct_title]{dct_title()}}
+\item foaf:homepage, R in V2: see \code{\link[=foaf_homepage]{foaf_homepage()}}
+\item dct:language, R in V2: see \code{\link[=dct_language]{dct_language()}}
+\item dct:license, R in V2: see \code{\link[=dct_license]{dct_license()}}
+\item dct:issued, R in V2: see \code{\link[=dct_issued]{dct_issued()}}
+\item dct:rights, R in V2: see \code{\link[=dct_rights]{dct_rights()}}
+\item dct:spatial, R in V2: see \code{\link[=dct_spatial]{dct_spatial()}}
+\item dcat:themeTaxonomy, R in V2: see \code{\link[=dcat_themeTaxonomy]{dcat_themeTaxonomy()}}
+\item dct:modified, R in V2: see \code{\link[=dct_modified]{dct_modified()}}
+\item dcat:service, R in V2: not yet implemented
+}
 }
 \examples{
 dcat_catalog()
