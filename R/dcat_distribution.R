@@ -9,9 +9,24 @@
 #' @param license dct:license property, see [dct_license()].
 #' @param ... any other property to be included to a dcat:Distribution
 #'
-#' Mandatory in V1, recommended in V2 (for `dcat:Dataset`, [dcat_dataset()])
 #'
-#' @seealso [dct_description()], [dct_title()], [dct_modified()], [dct_format()], [dct_rights()]
+#' @details
+#' A dcat:Dataset class, created with dcat_dataset(),
+#' can/must have the following properties (M stands
+#' for mandatory; R for recommended):
+#' - dct:issued, M in V1, R in V2: see [dct_issued()]
+#' - dcat:accessURL, M in V1 and V2: see [dcat_accessURL()]
+#' - dct:license, M in V1 and V2: see [dct_license()]
+#' - dcatap:availability, R in V2: not yet implemented
+#' - dct:description, R in V1 and V2: see [dct_description()]
+#' - dct:format, R in V2: see [dct_format()]
+#' - dct:rights, R in V2: see [dct_rights()]
+#' - dct:title, M in V1, R in V2: see [dct_title()]
+#' - dct:modified, R in V2: see [dct_modified()]
+#' - dcat:accessService, R in V2: not yet implemented
+#'
+#'
+#' @return A character vector of length greater than one.
 #'
 #' @examples
 #' dcat_distribution()
