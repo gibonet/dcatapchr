@@ -10,6 +10,30 @@
 #' @param ... any other property to be included to a dcat:Catalog
 #'
 #'
+#' @details
+#' A dcat:Catalog class, created with dcat_catalog(),
+#' can/must have the following properties (M stands
+#' for mandatory; R for recommended):
+#' - dcat:dataset, M in V1, R in V2: see [dcat_dataset()]
+#' - dct:description, M in V2: see [dct_description()]
+#' - dct:publisher, M in V2: see [dct_publisher()]
+#' - dct:title, M in V2: see [dct_title()]
+#' - foaf:homepage, R in V2: see [foaf_homepage()]
+#' - dct:language, R in V2: see [dct_language()]
+#' - dct:license, R in V2: see [dct_license()]
+#' - dct:issued, R in V2: see [dct_issued()]
+#' - dct:rights, R in V2: see [dct_rights()]
+#' - dct:spatial, R in V2: see [dct_spatial()]
+#' - dcat:themeTaxonomy, R in V2: see [dcat_themeTaxonomy()]
+#' - dct:modified, R in V2: see [dct_modified()]
+#' - dcat:service, R in V2: not yet implemented
+#'
+#' @return A character vector of length greater than one,
+#'     where each element is a line of the catalog in rdf
+#'     format. The catalog can be exported in a file with
+#'     unix file endings and UTF-8 encoding with
+#'     [write_unix()].
+#'
 #' @examples
 #' dcat_catalog()
 #' dcat_catalog(catalog_endpoint = "")
