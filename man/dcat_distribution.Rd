@@ -40,7 +40,7 @@ for mandatory; R for recommended):
 \item dct:rights, R in V2: see \code{\link[=dct_rights]{dct_rights()}}
 \item dct:title, M in V1, R in V2: see \code{\link[=dct_title]{dct_title()}}
 \item dct:modified, R in V2: see \code{\link[=dct_modified]{dct_modified()}}
-\item dcat:accessService, R in V2: not yet implemented
+\item dcat:accessService, R in V2: see \code{\link[=dcat_accessService]{dcat_accessService()}}
 }
 }
 \examples{
