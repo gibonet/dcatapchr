@@ -23,7 +23,7 @@
 #' - dct:rights, R in V2: see [dct_rights()]
 #' - dct:title, M in V1, R in V2: see [dct_title()]
 #' - dct:modified, R in V2: see [dct_modified()]
-#' - dcat:accessService, R in V2: not yet implemented
+#' - dcat:accessService, R in V2: see [dcat_accessService()]
 #'
 #'
 #' @return A character vector of length greater than one.
