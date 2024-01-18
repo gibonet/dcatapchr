@@ -26,7 +26,7 @@
 #' - dct:spatial, R in V2: see [dct_spatial()]
 #' - dcat:themeTaxonomy, R in V2: see [dcat_themeTaxonomy()]
 #' - dct:modified, R in V2: see [dct_modified()]
-#' - dcat:service, R in V2: not yet implemented
+#' - dcat:service, R in V2: see [dcat_service()]
 #'
 #' @return A character vector of length greater than one,
 #'     where each element is a line of the catalog in rdf

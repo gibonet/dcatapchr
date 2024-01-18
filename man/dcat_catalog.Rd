@@ -45,7 +45,7 @@ for mandatory; R for recommended):
 \item dct:spatial, R in V2: see \code{\link[=dct_spatial]{dct_spatial()}}
 \item dcat:themeTaxonomy, R in V2: see \code{\link[=dcat_themeTaxonomy]{dcat_themeTaxonomy()}}
 \item dct:modified, R in V2: see \code{\link[=dct_modified]{dct_modified()}}
-\item dcat:service, R in V2: not yet implemented
+\item dcat:service, R in V2: see \code{\link[=dcat_service]{dcat_service()}}
 }
 }
 \examples{
