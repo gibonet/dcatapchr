@@ -2,6 +2,7 @@
 
 # https://www.easyrdf.org/converter
 # https://opendata.swiss/fr/dataset/statistisches-jahrbuch-der-schweiz-18931.rdf
+# https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#classes
 
 # devtools (check, build, load, ...) ------------
 library(devtools)
