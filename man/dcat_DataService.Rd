@@ -30,6 +30,6 @@ for mandatory; R for recommended):
 \item dct:title, M in V2: see \code{\link[=dct_title]{dct_title()}}
 \item dct:endpointDescription, R in V2: see \code{\link[=dcat_endpointDescription]{dcat_endpointDescription()}}
 \item dct:license, R in V2: see \code{\link[=dct_license]{dct_license()}} and/or \code{\link[=dct_license2]{dct_license2()}}
-\item dcat:servesDataset, R in V2: not yet implemented
+\item dcat:servesDataset, R in V2: see \code{\link[=dcat_servesDataset]{dcat_servesDataset()}}
 }
 }

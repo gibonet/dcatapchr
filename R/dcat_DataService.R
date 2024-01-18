@@ -32,7 +32,7 @@
 #' - dct:title, M in V2: see [dct_title()]
 #' - dct:endpointDescription, R in V2: see [dcat_endpointDescription()]
 #' - dct:license, R in V2: see [dct_license()] and/or [dct_license2()]
-#' - dcat:servesDataset, R in V2: not yet implemented
+#' - dcat:servesDataset, R in V2: see [dcat_servesDataset()]
 #'
 #'
 #' @return A character vector of length greater than one.
