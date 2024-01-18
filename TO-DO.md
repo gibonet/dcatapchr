@@ -20,7 +20,7 @@ R: recommended property
 - [x] dct:language --> `dct_language()`  
 - [ ] dcat:service --> `dcat_service()`  
 - [x] dct:spatial --> `dct_spatial()`  
-- [ ] dcat:themeTaxonomy --> `dcat_themeTaxonomy()`  
+- [x] dcat:themeTaxonomy --> `dcat_themeTaxonomy()`  
     - Vedi sotto per un esempio...  
 - [x] dct:modified --> `dct:modified()`  
 
