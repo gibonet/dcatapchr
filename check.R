@@ -91,6 +91,7 @@ use_test("dcat_service")
 use_test("dcat_endpointURL")
 use_test("dcat_enpointDescription")
 use_test("dcat_DataService")
+use_test("dcat_servesDataset")
 
 
 # covr::package_coverage() ------------
