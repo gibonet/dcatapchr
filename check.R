@@ -56,6 +56,8 @@ styler::style_pkg()
 # usethis (test, ...) -----------------
 library(usethis)
 # create_package(path = ".")
+use_package_doc()
+
 
 use_testthat()
 
