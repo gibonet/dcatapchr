@@ -99,6 +99,7 @@ use_test("gen_tag")
 
 # covr::package_coverage() ------------
 # Da eseguire in una nuova sessione R
+rstudioapi::restartSession()
 library(covr)
 cov <- package_coverage()
 cov
