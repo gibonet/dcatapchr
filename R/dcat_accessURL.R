@@ -16,7 +16,7 @@ dcat_accessURL <- function(access_url = "https://www3.ti.ch/DFE/DR/USTAT/allegat
   stopifnot(length(access_url) == 1L)
 
   paste0(
-    "<dcat:accessURL rdf:resource=", add_quotes(access_url), "/>"
+    "<dcat:accessURL rdf:resource=", add_quotes(access_url), " />"
   )
 }
 
