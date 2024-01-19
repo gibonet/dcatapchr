@@ -4,7 +4,7 @@
 \alias{gen_tag}
 \title{Generate a tag like \if{html}{\out{<tag>}}...\if{html}{\out{</tag>}}}
 \usage{
-gen_tag(tag = "dct:indentifier", x = "...")
+gen_tag(tag = "dct:identifier", x = "...")
 }
 \arguments{
 \item{tag}{character string with the desired tag}

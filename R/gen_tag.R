@@ -8,7 +8,7 @@
 #'
 #'
 #' @export
-gen_tag <- function(tag = "dct:indentifier", x = "...") {
+gen_tag <- function(tag = "dct:identifier", x = "...") {
   stopifnot(length(tag) == 1L)
 
   paste0(
