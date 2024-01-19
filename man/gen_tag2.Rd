@@ -16,7 +16,7 @@ gen_tag2(
 \item{x}{the content to be encapsulated inside the tag. Note that this
 content is enclosed in quotation marks (by the function)}
 
-\item{rdf_resource}{character string that}
+\item{rdf_resource}{character string that comes afer the tag (default: "rdf:resource")}
 }
 \description{
 Generate a tag like \if{html}{\out{<tag rdf:resource="..." />}}

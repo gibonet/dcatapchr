@@ -25,7 +25,7 @@ gen_tag <- function(tag = "dct:identifier", x = "...") {
 #' @param tag character string with the desired tag
 #' @param x the content to be encapsulated inside the tag. Note that this
 #'     content is enclosed in quotation marks (by the function)
-#' @param rdf_resource character string that
+#' @param rdf_resource character string that comes afer the tag (default: "rdf:resource")
 #'
 #' @export
 gen_tag2 <- function(tag = "dcat:accessURL", x = "https://example.com", rdf_resource = "rdf:resource") {
