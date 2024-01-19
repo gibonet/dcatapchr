@@ -97,6 +97,7 @@ use_test("dcat_DataService")
 use_test("dcat_servesDataset")
 use_test("dcat_accessService")
 use_test("gen_tag")
+use_test("f_gen_tag")
 
 
 # covr::package_coverage() ------------
