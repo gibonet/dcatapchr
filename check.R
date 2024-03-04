@@ -131,4 +131,18 @@ names(y$RDF$Catalog$dataset)
 names(y$RDF$Catalog$dataset$Dataset)
 
 
+# git push both on gitlab and github ------------
+# From the terminal:
+# git remote add github https://github.com/SwissStatsR/dcatapchr.git
+# git remote -v
+# origin is gitlab, github is github
+
+# To push on both remote repositories:
+# git push                   # push on gitlab
+# git push -u github main    # push on github
+
+
+
+
+
 
