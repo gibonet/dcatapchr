@@ -141,6 +141,8 @@ names(y$RDF$Catalog$dataset$Dataset)
 # git push -u origin main    # push on gitlab
 # git push -u github main    # push on github
 
+# Does this work?
+# git push --all
 
 
 
