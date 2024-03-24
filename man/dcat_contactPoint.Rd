@@ -6,13 +6,16 @@
 \usage{
 dcat_contactPoint(
   nodeID = paste(sample(letters), collapse = ""),
-  email = "dfe-ustat@ti.ch"
+  email = "dfe-ustat@ti.ch",
+  fn = "Ufficio di statistica del Canton Ticino (Ustat)"
 )
 }
 \arguments{
 \item{nodeID}{organization id (character string)}
 
-\item{email}{email address
+\item{email}{email address}
+
+\item{fn}{name of the organization
 
 Mandatory property of \code{dcat:Dataset} (\code{\link[=dcat_dataset]{dcat_dataset()}})}
 }

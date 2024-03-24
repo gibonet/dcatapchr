@@ -5,6 +5,7 @@
 #'
 #' @param nodeID organization id (character string)
 #' @param email email address
+#' @param fn name of the organization
 #'
 #'
 #'
@@ -12,7 +13,8 @@
 #'
 #' @export
 dcat_contactPoint <- function(nodeID = paste(sample(letters), collapse = ""),
-                              email = "dfe-ustat@ti.ch") {
+                              email = "dfe-ustat@ti.ch",
+                              fn = "Ufficio di statistica del Canton Ticino (Ustat)") {
 
   stopifnot(length(nodeID) == 1L)
   stopifnot(length(email) == 1L)
@@ -21,7 +23,7 @@ dcat_contactPoint <- function(nodeID = paste(sample(letters), collapse = ""),
     "<dcat:contactPoint>",
     paste0("  <vcard:Organization rdf:nodeID=", add_quotes(nodeID), ">"),
     paste0("    <vcard:hasEmail rdf:resource=", add_quotes(paste0("mailto:", email)), "/>"),
-    paste0("    <vcard:fn>", email, "</vcard:fn>"),
+    paste0("    <vcard:fn>", fn, "</vcard:fn>"),
     "  </vcard:Organization>",
     "</dcat:contactPoint>"
   )
