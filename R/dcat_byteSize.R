@@ -17,7 +17,7 @@ dcat_byteSize <- function(size = 0) {
   stopifnot(length(size) == 1L)
 
   paste0(
-    "dcat:byteSize rdf:datatype=",
+    "<dcat:byteSize rdf:datatype=",
     add_quotes("http://www.w3.org/2001/XMLSchema#integer"),
     ">",
     size,
