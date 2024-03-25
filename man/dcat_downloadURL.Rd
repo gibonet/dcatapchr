@@ -5,13 +5,13 @@
 \title{Create a dcat:downloadURL property in DCAT-AP CH standard}
 \usage{
 dcat_downloadURL(
-  access_url = "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"
+  download_url = "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"
 )
 }
 \arguments{
-\item{access_url}{url of the resource
+\item{download_url}{url of the resource
 
-Mandatory property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}})}
+Property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}})}
 }
 \description{
 Create a dcat:downloadURL property in DCAT-AP CH standard
