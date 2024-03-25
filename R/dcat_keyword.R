@@ -27,7 +27,7 @@ dcat_keyword <- function(x = "", language = c("de", "fr", "it", "en")) {
   stopifnot(length(x) == 1L)
 
   paste0(
-    "dcat:keyword xml:lang=", add_quotes(language), ">",
+    "<dcat:keyword xml:lang=", add_quotes(language), ">",
     x, "</dcat:keyword>"
   )
 }
