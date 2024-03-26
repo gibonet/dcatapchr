@@ -36,7 +36,7 @@ dct_temporal <- function(startDate = Sys.Date() - 1, endDate = Sys.Date()) {
     ),
     # endDate row
     paste0(
-      "    <schema:endDate ", rdf_datatype, ">", endDate, "</schema:startDate>"
+      "    <schema:endDate ", rdf_datatype, ">", endDate, "</schema:endDate>"
     ),
     "  </dct:PeriodOfTime>",
     "</dct:temporal>"
