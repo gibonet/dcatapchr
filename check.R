@@ -99,6 +99,7 @@ use_test("dcat_accessService")
 use_test("gen_tag")
 use_test("f_gen_tag")
 use_test("dcat_byteSize")
+use_test("dcat_downloadURL")
 
 # covr::package_coverage() ------------
 # Da eseguire in una nuova sessione R
