@@ -6,118 +6,23 @@
 The goal of dcatapchr is to create a metadata catalog compatible with
 the DCAT-AP CH standard.
 
-See for example <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html>
-and
-<https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html>
-
-See <https://ckan.opendata.swiss/api/3/action/harvest_source_list> for
-catalog examples. See
-<https://www.web.statistik.zh.ch/ogd/harvester/stadt-winterthur.xml> or
-<https://www.web.statistik.zh.ch/ogd/harvester/statistisches-amt-kanton-zuerich.xml>
-or <https://ckan-prod.zurich.datopian.com/catalog.rdf>
-
-## Classes of DCAT-AP CH
-
--   Catalog, `dcat:Catalog`, mandatory  
--   Dataset, `dcat:Dataset`, mandatory  
--   Distribution, `dcat:Distribution`, mandatory
-
-Properties of `dcat:Catalog`:  
-- dataset, `dcat:dataset`, mandatory
-
-Properties of `dcat:Dataset`:  
-- title, `dct:title`, mandatory, multilingual  
-- description, `dct:description`, mandatory, multilingual  
-- publisher, `dct:publisher`, mandatory, import format changed  
-- contact point, `dcat:contactPoint`, mandatory  
-- identifier, `dct:identifier`, mandatory  
-- distribution, `dcat:distribution`, mandatory  
-- … (other properties, conditional or optional)
-
-Properties of `dcat:Distribution`:  
-- issued, `dct:issued`, mandatory  
-- access url, `dcat:accessURL`, mandatory  
-- rights, `dct:rights`, mandatory  
-- … (other properties, conditional or optional)
-
-The properties above are those of DCAT-AP CH V1 (I think).
-
-## DCAT-AP CH V2
-
-There is now V2:  
-- <https://www.dcat-ap.ch/>  
-- <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html>
-
--   <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#changes-overview>  
-
--   <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#dcat-ap-building-blocks>
-
--   The Requirement level “conditional” was replaced by the
-    “recommended”, to align with the DCAT-AP’s notation
-
-**Classes**:  
-- Catalog –&gt; `dcat:Catalog`  
-- Dataset –&gt; `dcat:Dataset`  
-- Distribution –&gt; `dcat:Distribution`  
-- Data Service –&gt; `dcat:DataService`
-
-See <https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html#classes>
-
-### Mandatory (and some recommended) properties (V2)
-
-Properties of `dcat:Catalog`:  
-- description: `dct:description` (mandatory)  
-- publisher: `dct:publisher` (mandatory)  
-- title: `dct:title` (mandatory)  
-- dataset, `dcat:dataset`, recommended (V1: mandatory)  
-- … (other properties, recommended)  
-- homepage, `foaf:homepage`, recommended  
-- language, `dct:language`, recommended  
-- issued, `dct:issued`, recommended  
-- rights, `dct:rights`, recommended  
-- service, `dcat:service`, recommended  
-- spatial, `dct:spatial`, recommended  
-- themeTaxonomy, `dcat:themeTaxonomy`, recommended  
-- modified, `dct:modified`, recommended
-
-Properties of `dcat:Dataset`:  
-- title, `dct:title`, mandatory, multilingual  
-- description, `dct:description`, mandatory, multilingual  
-- publisher, `dct:publisher`, mandatory, import format changed  
-- contact point, `dcat:contactPoint`, mandatory  
-- identifier, `dct:identifier`, mandatory  
-- distribution, `dcat:distribution`, recommended (V1: mandatory)  
-- … (other properties, recommended)  
-- keyword, `dcat:keyword`, recommended  
-- landingPage, `dcat:landingPage`, recommended  
-- issued, `dct:issued`, recommended  
-- spatial, `dct:spatial`, recommended  
-- temporal, `dct:temporal`, recommended  
-- theme, `dcat:theme`, recommended  
-- modified, `dct:modified`, recommended
-
-Properties of `dcat:Distribution`:  
-- access url, `dcat:accessURL`, mandatory  
-- license, `dct:license`, mandatory  
-- rights, `dct:rights`, recommended (V1: mandatory)  
-- … (other properties, recommended)  
-- availability, `dcatap:availability`, recommended  
-- description, `dct:description`, recommended  
-- format, `dct:format`, recommended  
-- title, `dct:title`, recommended  
-- modified, `dct:modified`, recommended
+Basically, a catalog consists of one or more datasets, and each dataset
+has one or more distributions (see
+<https://www.dcat-ap.ch/releases/2.0/dcat-ap-ch.html> and
+<https://handbook.opendata.swiss/de/content/glossar/bibliothek/dcat-ap-ch.html>).
 
 ## Installation
 
 You can install the development version of dcatapchr like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+install.packages("dcatapchr", repos = "https://swissstatsr.r-universe.dev")
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+In the example below, a catalog is created with a dataset with 3
+distributions.
 
 ``` r
 library(dcatapchr)
@@ -161,21 +66,21 @@ distributions
 #>  [1] "<dcat:distribution>"                                                                                        
 #>  [2] "  <dcat:Distribution>"                                                                                      
 #>  [3] "    <dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">2021-10-14T00:00:00</dct:issued>"
-#>  [4] "    <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_xlsx.zip\"/>"  
+#>  [4] "    <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_xlsx.zip\" />" 
 #>  [5] "    <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>"                    
 #>  [6] "  </dcat:Distribution>"                                                                                     
 #>  [7] "</dcat:distribution>"                                                                                       
 #>  [8] "<dcat:distribution>"                                                                                        
 #>  [9] "  <dcat:Distribution>"                                                                                      
 #> [10] "    <dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">2021-10-14T00:00:00</dct:issued>"
-#> [11] "    <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip\"/>"    
+#> [11] "    <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip\" />"   
 #> [12] "    <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>"                    
 #> [13] "  </dcat:Distribution>"                                                                                     
 #> [14] "</dcat:distribution>"                                                                                       
 #> [15] "<dcat:distribution>"                                                                                        
 #> [16] "  <dcat:Distribution>"                                                                                      
 #> [17] "    <dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">2021-10-14T00:00:00</dct:issued>"
-#> [18] "    <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip\"/>"   
+#> [18] "    <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip\" />"  
 #> [19] "    <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:license>"                 
 #> [20] "    <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>"                    
 #> [21] "  </dcat:Distribution>"                                                                                     
@@ -239,14 +144,14 @@ tail(catalog, n = 20)
 #>  [2] "        <dcat:distribution>"                                                                                        
 #>  [3] "          <dcat:Distribution>"                                                                                      
 #>  [4] "            <dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">2021-10-14T00:00:00</dct:issued>"
-#>  [5] "            <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip\"/>"    
+#>  [5] "            <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_px.zip\" />"   
 #>  [6] "            <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>"                    
 #>  [7] "          </dcat:Distribution>"                                                                                     
 #>  [8] "        </dcat:distribution>"                                                                                       
 #>  [9] "        <dcat:distribution>"                                                                                        
 #> [10] "          <dcat:Distribution>"                                                                                      
 #> [11] "            <dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#dateTime\">2021-10-14T00:00:00</dct:issued>"
-#> [12] "            <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip\"/>"   
+#> [12] "            <dcat:accessURL rdf:resource=\"https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip\" />"  
 #> [13] "            <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:license>"                 
 #> [14] "            <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>"                    
 #> [15] "          </dcat:Distribution>"                                                                                     
