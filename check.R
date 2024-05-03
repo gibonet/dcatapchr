@@ -16,6 +16,8 @@ build_readme()
 check(args = "--no-tests")
 
 build()
+if (Sys.info()[["sysname"]] == "Windows") build(binary = TRUE)
+
 install(upgrade = "never")
 
 test()
