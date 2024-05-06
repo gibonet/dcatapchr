@@ -14,3 +14,4 @@ TO-DO.md
 
 dcatapchr-report.html
 lib/
+^\.github$

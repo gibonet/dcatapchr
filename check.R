@@ -60,6 +60,7 @@ library(usethis)
 # create_package(path = ".")
 use_package_doc()
 
+use_github_action(name = "check-standard")
 
 use_testthat()
 
