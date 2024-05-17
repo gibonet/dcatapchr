@@ -18,10 +18,10 @@ R: recommended property
 
 - [x] foaf:homepage --> `foaf_homepage()`  
 - [x] dct:language --> `dct_language()`  
-- [ ] dcat:service --> `dcat_service()`  
+- [x] dcat:service --> `dcat_service()`  
 - [x] dct:spatial --> `dct_spatial()`  
 - [x] dcat:themeTaxonomy --> `dcat_themeTaxonomy()`  
-    - Vedi sotto per un esempio...  
+    - See below for an example...  
 - [x] dct:modified --> `dct:modified()`  
 
 
@@ -39,7 +39,7 @@ R: recommended property
 
 
 
-Esempio di dcat:themeTaxonomy:  
+Example of dcat:themeTaxonomy:   
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
