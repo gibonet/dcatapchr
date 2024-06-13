@@ -1,6 +1,8 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+[![R-CMD-check](https://github.com/SwissStatsR/dcatapchr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SwissStatsR/dcatapchr/actions/workflows/R-CMD-check.yaml)
+
 # dcatapchr
 
 The goal of dcatapchr is to create a metadata catalog compatible with
@@ -16,7 +18,7 @@ has one or more distributions (see
 You can install the development version of dcatapchr like so:
 
 ``` r
-install.packages("dcatapchr", repos = "https://swissstatsr.r-universe.dev")
+remotes::install_github("SwissStatsR/dcatapchr")
 ```
 
 ## Example

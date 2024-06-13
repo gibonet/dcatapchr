@@ -3,6 +3,8 @@ output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+[![R-CMD-check](https://github.com/SwissStatsR/dcatapchr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SwissStatsR/dcatapchr/actions/workflows/R-CMD-check.yaml)
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -29,7 +31,7 @@ Basically, a catalog consists of one or more datasets, and each dataset has one 
 You can install the development version of dcatapchr like so:
 
 ``` r
-install.packages("dcatapchr", repos = "https://swissstatsr.r-universe.dev")
+remotes::install_github("SwissStatsR/dcatapchr")
 ```
 
 ## Example
