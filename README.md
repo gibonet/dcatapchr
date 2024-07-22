@@ -21,6 +21,12 @@ You can install the development version of dcatapchr like so:
 remotes::install_github("SwissStatsR/dcatapchr")
 ```
 
+Or from the `swissstatsr.r-universe.dev`:
+
+``` r
+install.packages("dcatapchr", repos = "https://swissstatsr.r-universe.dev")
+```
+
 ## Example
 
 In the example below, a catalog is created with a dataset with 3
