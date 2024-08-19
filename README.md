@@ -2,6 +2,10 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 [![R-CMD-check](https://github.com/SwissStatsR/dcatapchr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SwissStatsR/dcatapchr/actions/workflows/R-CMD-check.yaml)
+[![:name status
+badge](https://swissstatsr.r-universe.dev/badges/:name)](https://swissstatsr.r-universe.dev/)
+[![dcatapchr status
+badge](https://swissstatsr.r-universe.dev/badges/dcatapchr)](https://swissstatsr.r-universe.dev/dcatapchr)
 
 # dcatapchr
 
