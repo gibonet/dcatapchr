@@ -15,3 +15,6 @@ TO-DO.md
 dcatapchr-report.html
 lib/
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

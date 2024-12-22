@@ -9,7 +9,7 @@
 Create DCAT-AP CH metadata files, typically in rdf format.
 }
 \author{
-\strong{Maintainer}: Sandro Burri \email{sandro.burri@ti.ch}
+\strong{Maintainer}: Sandro Burri \email{gibo.gaf@gmail.com}
 
 }
 \keyword{internal}

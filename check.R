@@ -23,6 +23,7 @@ install(upgrade = "never")
 test()
 check()  # check() + test()
 
+# use_pkgdown()
 
 # dct_description issue -------------------------
 # In the txt imported (with readLines) there is an
