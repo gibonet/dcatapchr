@@ -109,6 +109,9 @@ use_test("f_gen_tag")
 use_test("dcat_byteSize")
 use_test("dcat_downloadURL")
 
+use_r("dcat_mediaType")
+use_test("dcat_mediaType")
+
 # covr::package_coverage() ------------
 # Da eseguire in una nuova sessione R
 rstudioapi::restartSession()
