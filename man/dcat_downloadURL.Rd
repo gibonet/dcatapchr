@@ -9,10 +9,8 @@ dcat_downloadURL(
 )
 }
 \arguments{
-\item{download_url}{url of the resource
-
-Property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}})}
+\item{download_url}{url of the resource}
 }
 \description{
-Create a dcat:downloadURL property in DCAT-AP CH standard
+Property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}})
 }

@@ -2,12 +2,13 @@
 
 #' Create a dcat:downloadURL property in DCAT-AP CH standard
 #'
+#' @description
+#' Property of `dcat:Distribution` ([dcat_distribution()])
 #'
 #' @param download_url url of the resource
 #'
 #'
 #'
-#' Property of `dcat:Distribution` ([dcat_distribution()])
 #'
 #'
 #' @export
