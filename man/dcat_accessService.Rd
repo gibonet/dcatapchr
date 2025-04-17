@@ -7,7 +7,8 @@
 dcat_accessService(x = dcat_DataService())
 }
 \arguments{
-\item{x}{things to include in a dcat:accessService, typically one or more dcat:DataService}
+\item{x}{things to include in a dcat:accessService,
+typically one or more dcat:DataService}
 }
 \description{
 Create a dcat:accessService property in DCAT-AP CH standard

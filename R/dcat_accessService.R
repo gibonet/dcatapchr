@@ -9,7 +9,8 @@
 
 #' Create a dcat:accessService property in DCAT-AP CH standard
 #'
-#' @param x things to include in a dcat:accessService, typically one or more dcat:DataService
+#' @param x things to include in a dcat:accessService,
+#'     typically one or more dcat:DataService
 #'
 #' @export
 dcat_accessService <- function(x = dcat_DataService()) {
