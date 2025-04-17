@@ -2,18 +2,31 @@
 % Please edit documentation in R/dct_publisher.R
 \name{dct_publisher}
 \alias{dct_publisher}
+\alias{dct_publisher2}
 \title{Create a dct:publisher property in DCAT-AP CH standard}
 \usage{
 dct_publisher(
   publisher = "https://www.ti.ch/ustat",
   foaf_name = "Ufficio di statistica del Cantone Ticino (Ustat)"
 )
+
+dct_publisher2(
+  publisher = "https://www.ti.ch/ustat",
+  foaf_name = "Ufficio di statistica del Cantone Ticino (Ustat)",
+  language = "it"
+)
 }
 \arguments{
 \item{publisher}{character string with a publisher (usually an URL)}
 
 \item{foaf_name}{name of the organization/publisher}
+
+\item{language}{language of foaf:name. Can be one or more of "de", "fr",
+"it" or "en". Must have the same length as foaf_name.}
 }
 \description{
-Create a dct:publisher property in DCAT-AP CH standard
+\code{dct_publisher()} is modeled as a foaf:Organization,
+\code{dct_publisher2()} is modelled as a foaf:Agent in accordance with
+DCAT-AP CH v2. \code{dct_publisher2()} allows the specification of the
+foaf:name in more languages.
 }
