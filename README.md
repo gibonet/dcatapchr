@@ -119,7 +119,11 @@ dataset <- dcat_dataset(
     description = description, 
     language = "it"
   ), 
-  publisher = dct_publisher(publisher = "https://www.ti.ch/ustat", foaf_name = "Ustat"), 
+  publisher = dct_publisher2(
+    publisher = "https://www.ti.ch/ustat", 
+    foaf_name = "Ustat",
+    language = "it"
+  ), 
   contactPoint = dcat_contactPoint(), 
   identifier = dct_identifier(),
   distribution = distributions
