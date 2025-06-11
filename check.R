@@ -66,6 +66,8 @@ library(usethis)
 use_package_doc()
 
 use_github_action(name = "check-standard")
+# use_github_pages()
+use_github_action("pkgdown")
 
 use_testthat()
 
