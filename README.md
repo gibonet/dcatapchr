@@ -186,5 +186,3 @@ Export to an rdf file (with UNIX line endings):
 # close(f)
 write_unix(catalog, filename = "catalogo_ustat.rdf")
 ```
-
-.
