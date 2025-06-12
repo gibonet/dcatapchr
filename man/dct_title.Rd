@@ -18,3 +18,8 @@ Mandatory property of \code{dcat:Catalog} (V2) (\code{\link[=dcat_catalog]{dcat_
 \description{
 Create a dct:title property in DCAT-AP CH standard
 }
+\examples{
+dct_title(title = "This is a title", language = "en")
+
+
+}

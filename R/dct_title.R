@@ -13,6 +13,9 @@
 #' `dcat:Dataset` ([dcat_dataset()]), recommended property of
 #' `dcat:Distribution` ([dcat_distribution()])
 #'
+#' @examples
+#' dct_title(title = "This is a title", language = "en")
+#'
 #'
 #' @export
 dct_title <- function(title = "", language = "it") {
