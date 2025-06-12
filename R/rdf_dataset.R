@@ -22,7 +22,7 @@ rdf_dataset <- function(dataset = dcat_dataset(), namespaces = c(
   # Eliminate dcat:dataset tags
   k <- grep("dcat:dataset", dataset, fixed = TRUE)
   c(
-    rdf_namespaces(),
+    rdf_namespaces(namespaces = namespaces),
     dataset[-k],
     "</rdf:RDF>"
   )
