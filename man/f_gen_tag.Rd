@@ -17,5 +17,7 @@ A closure to create a function that generates a tag like \if{html}{\out{<tag>}}.
 f <- f_gen_tag(tag = "dct:identifier")
 f(x = "an_identifier")
 
+rm(f)
+
 
 }

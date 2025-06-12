@@ -12,6 +12,8 @@
 #' f <- f_gen_tag(tag = "dct:identifier")
 #' f(x = "an_identifier")
 #'
+#' rm(f)
+#'
 #'
 #' @export
 f_gen_tag <- function(tag = "dct:identifier") {
