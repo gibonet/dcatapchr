@@ -7,6 +7,10 @@
 #'
 #' @param x a filetype resource url/uri. See https://publications.europa.eu/resource/authority/file-type
 #'
+#' @examples
+#' dct_format(
+#'   x = "http://publications.europa.eu/resource/authority/file-type/CSV"
+#' )
 #'
 #' @export
 dct_format <- function(x = "http://publications.europa.eu/resource/authority/file-type/CSV") {

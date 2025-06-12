@@ -14,3 +14,9 @@ dct_format(
 \description{
 Create a dct:format property in DCAT-AP CH standard
 }
+\examples{
+dct_format(
+  x = "http://publications.europa.eu/resource/authority/file-type/CSV"
+)
+
+}
