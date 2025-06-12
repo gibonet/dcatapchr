@@ -6,6 +6,9 @@
 #'
 #' @param identifier character string with and identifier
 #'
+#' @examples
+#' dct_identifier(identifier = "ti-ustat-cubi_pol_01@ustat")
+#'
 #' @export
 dct_identifier <- function(identifier = "xyz456@cantone_ticino") {
   stopifnot(length(identifier) == 1L)

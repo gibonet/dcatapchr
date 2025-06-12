@@ -12,3 +12,7 @@ dct_identifier(identifier = "xyz456@cantone_ticino")
 \description{
 Create a dct:identifier property in DCAT-AP CH standard
 }
+\examples{
+dct_identifier(identifier = "ti-ustat-cubi_pol_01@ustat")
+
+}
