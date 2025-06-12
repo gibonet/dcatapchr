@@ -7,6 +7,11 @@
 #' See also https://dcat-ap.ch/vocabulary/licenses/20210623.html#terms_open for a
 #' list of possible licenses.
 #'
+#' @examples
+#' dct_rights(
+#'   license = "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+#' )
+#'
 #' @export
 dct_rights <- function(license = c(
   "NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired",

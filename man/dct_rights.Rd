@@ -20,3 +20,9 @@ list of possible licenses.}
 \description{
 Create a dct:rights property in DCAT-AP CH standard
 }
+\examples{
+dct_rights(
+  license = "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+)
+
+}
