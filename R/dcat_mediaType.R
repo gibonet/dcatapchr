@@ -7,6 +7,9 @@
 #'
 #' @param media_type a MIME type of [IANA-MEDIA-TYPES](http://www.iana.org/assignments/media-types/media-types.xhtml). Example: "https://www.iana.org/assignments/media-types/text/csv"
 #'
+#' @examples
+#' dcat_mediaType()
+#'
 #' @export
 dcat_mediaType <- function(
   media_type = "https://www.iana.org/assignments/media-types/text/csv"

@@ -15,3 +15,7 @@ dcat_mediaType(
 Property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}}).
 See also https://handbook.opendata.swiss/fr/content/glossar/bibliothek/dcat-ap-ch.html#dcat-distribution-media-type
 }
+\examples{
+dcat_mediaType()
+
+}
