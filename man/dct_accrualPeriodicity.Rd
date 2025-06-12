@@ -17,3 +17,9 @@ dct_accrualPeriodicity(
 \description{
 Create a dct:accrualPeriodicity property in DCAT-AP CH standard
 }
+\examples{
+dct_accrualPeriodicity(
+  freq = "https://publications.europa.eu/resource/authority/frequency/ANNUAL"
+)
+
+}
