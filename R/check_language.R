@@ -5,6 +5,7 @@
 #'
 #' @param language one of "de", "fr", "it" or "en"
 #'
+#' @noRd
 check_language <- function(language) {
   language <- language[1]
 
