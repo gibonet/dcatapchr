@@ -8,6 +8,9 @@
 #'
 #' @param x an url
 #'
+#' @examples
+#' dcat_themeTaxonomy(x = "http://publications.europa.eu/resource/authority/data-theme")
+#'
 #' @export
 dcat_themeTaxonomy <- function(x = "http://publications.europa.eu/resource/authority/data-theme") {
   stopifnot(length(x) == 1L)

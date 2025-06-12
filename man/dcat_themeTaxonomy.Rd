@@ -14,3 +14,7 @@ dcat_themeTaxonomy(
 \description{
 Create a dcat:themeTaxonomy property in DCAT-AP CH standard
 }
+\examples{
+dcat_themeTaxonomy(x = "http://publications.europa.eu/resource/authority/data-theme")
+
+}
