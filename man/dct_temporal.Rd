@@ -14,3 +14,10 @@ dct_temporal(startDate = Sys.Date() - 1, endDate = Sys.Date())
 \description{
 Create a dct:temporal property in DCAT-AP CH standard
 }
+\examples{
+dct_temporal(
+  startDate = "2000-12-31",
+  endDate = "2010-12-31"
+)
+
+}

@@ -13,7 +13,11 @@
 #' @param startDate start date (default: Sys.Date() - 1). Date in yyyy-mm-dd format
 #' @param endDate end date (default: Sys.Date()). Date in yyyy-mm-dd format
 #'
-#'
+#' @examples
+#' dct_temporal(
+#'   startDate = "2000-12-31",
+#'   endDate = "2010-12-31"
+#' )
 #'
 #' @export
 dct_temporal <- function(startDate = Sys.Date() - 1, endDate = Sys.Date()) {
