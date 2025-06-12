@@ -48,11 +48,11 @@ gsub("&", "&amp;", tmp, fixed = TRUE)
 
 # Copia tar.gz nel progetto 00_copia_sorgenti_gib_packs -------------
 file.copy(
-  "../dcatapchr_0.0.0.2.tar.gz", to = "../00_copia_sorgenti_gib_packs/"
+  "../dcatapchr_0.0.0.3.tar.gz", to = "../00_copia_sorgenti_gib_packs/"
 )
 
 file.copy(
-  "../dcatapchr_0.0.0.2.zip", to = "../00_copia_sorgenti_gib_packs/win.binaries/"
+  "../dcatapchr_0.0.0.3.zip", to = "../00_copia_sorgenti_gib_packs/win.binaries/"
 )
 
 # Re-style R scripts
