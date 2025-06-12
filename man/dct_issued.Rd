@@ -14,3 +14,7 @@ dct_issued(date = Sys.Date(), hour_minutes_seconds = "00:00:00")
 \description{
 Create a dct:issued property in DCAT-AP CH standard
 }
+\examples{
+dct_issued(date = "2000-12-31", hour_minutes_seconds = "10:00:00")
+
+}
