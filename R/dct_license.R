@@ -15,6 +15,11 @@
 #'
 #' @param about a dct:license uri. See https://www.dcat-ap.ch/vocabulary/licenses/20210623.html
 #'
+#' @examples
+#' dct_license(
+#'   about = "http://dcat-ap.ch/vocabulary/licenses/terms_open"
+#' )
+#'
 #' @export
 dct_license <- function(about = "http://dcat-ap.ch/vocabulary/licenses/terms_open") {
   stopifnot(length(about) == 1L)

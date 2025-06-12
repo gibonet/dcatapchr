@@ -25,3 +25,9 @@ list of possible licenses.}
 \description{
 Create a dct:license property in DCAT-AP CH standard
 }
+\examples{
+dct_license(
+  about = "http://dcat-ap.ch/vocabulary/licenses/terms_open"
+)
+
+}
