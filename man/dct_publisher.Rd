@@ -30,3 +30,16 @@ dct_publisher2(
 DCAT-AP CH v2. \code{dct_publisher2()} allows the specification of the
 foaf:name in more languages.
 }
+\examples{
+dct_publisher(
+  publisher = "https://www.ti.ch/ustat",
+  foaf_name = "Ufficio di statistica del Cantone Ticino (Ustat)"
+)
+
+dct_publisher2(
+  publisher = "https://www.ti.ch/ustat",
+  foaf_name = "Ufficio di statistica del Cantone Ticino (Ustat)",
+  language = "it"
+)
+
+}

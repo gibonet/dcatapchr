@@ -13,6 +13,11 @@
 #' @param publisher character string with a publisher (usually an URL)
 #' @param foaf_name name of the organization/publisher
 #'
+#' @examples
+#' dct_publisher(
+#'   publisher = "https://www.ti.ch/ustat",
+#'   foaf_name = "Ufficio di statistica del Cantone Ticino (Ustat)"
+#' )
 #'
 #' @export
 dct_publisher <- function(
@@ -56,6 +61,13 @@ dct_publisher <- function(
 #'
 #' @param language language of foaf:name. Can be one or more of "de", "fr",
 #'     "it" or "en". Must have the same length as foaf_name.
+#'
+#' @examples
+#' dct_publisher2(
+#'   publisher = "https://www.ti.ch/ustat",
+#'   foaf_name = "Ufficio di statistica del Cantone Ticino (Ustat)",
+#'   language = "it"
+#' )
 #'
 #' @export
 dct_publisher2 <- function(
