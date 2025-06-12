@@ -6,6 +6,12 @@
 #'
 #' @param language two-letters abbreviation of the language (one of "de", "fr", "it" or "en")
 #'
+#' @examples
+#' dct_language(language = "de")
+#' dct_language(language = "fr")
+#' dct_language(language = "it")
+#' dct_language(language = "en")
+#'
 #' @export
 dct_language <- function(language = c("de", "fr", "it", "en")) {
   language <- language[1]

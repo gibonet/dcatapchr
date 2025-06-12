@@ -12,3 +12,10 @@ dct_language(language = c("de", "fr", "it", "en"))
 \description{
 Create a dct:language property in DCAT-AP CH standard
 }
+\examples{
+dct_language(language = "de")
+dct_language(language = "fr")
+dct_language(language = "it")
+dct_language(language = "en")
+
+}
