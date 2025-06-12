@@ -14,3 +14,8 @@ gen_tag(tag = "dct:identifier", x = "...")
 \description{
 Generate a tag like \if{html}{\out{<tag>}}...\if{html}{\out{</tag>}}
 }
+\examples{
+gen_tag(tag = "dct:identifier", x = "ti-ustat-cubi_pol_01@ustat")
+
+
+}

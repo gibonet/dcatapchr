@@ -21,3 +21,11 @@ content is enclosed in quotation marks (by the function)}
 \description{
 Generate a tag like \if{html}{\out{<tag rdf:resource="..." />}}
 }
+\examples{
+gen_tag2(
+  tag = "dcat:accessURL",
+  x = "https://example.com",
+  rdf_resource = "rdf:resource"
+)
+
+}
