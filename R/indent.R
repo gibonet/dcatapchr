@@ -7,6 +7,7 @@
 #' @param x a character vector
 #' @param nspaces number of desired spaces to indent (default: 2)
 #'
+#' @noRd
 #'
 indent <- function(x, nspaces = 2L) {
   # first implementation
