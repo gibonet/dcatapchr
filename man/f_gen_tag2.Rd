@@ -19,5 +19,7 @@ A closure to create a function that generates a tag like \if{html}{\out{<tag rdf
 f <- f_gen_tag2(tag = "dcat:accessURL")
 f(x = "https://www.example.com")
 
+rm(f)
+
 
 }

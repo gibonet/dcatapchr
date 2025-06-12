@@ -39,6 +39,8 @@ f_gen_tag <- function(tag = "dct:identifier") {
 #' f <- f_gen_tag2(tag = "dcat:accessURL")
 #' f(x = "https://www.example.com")
 #'
+#' rm(f)
+#'
 #'
 #' @export
 f_gen_tag2 <- function(tag = "dcat:accessURL", rdf_resource = "rdf:resource") {
