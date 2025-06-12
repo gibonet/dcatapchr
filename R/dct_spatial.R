@@ -7,6 +7,9 @@
 #'
 #' @param x spatial reference (default: "Switzerland")
 #'
+#' @examples
+#' dct_spatial(x = "Switzerland")
+#'
 #' @export
 dct_spatial <- function(x = "Switzerland") {
   x <- x[1]

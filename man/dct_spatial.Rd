@@ -12,3 +12,7 @@ dct_spatial(x = "Switzerland")
 \description{
 Create a dct:spatial property in DCAT-AP CH standard
 }
+\examples{
+dct_spatial(x = "Switzerland")
+
+}
