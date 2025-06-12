@@ -7,9 +7,9 @@
 #' @param email email address
 #' @param fn name of the organization
 #'
-#'
-#'
 #' Mandatory property of `dcat:Dataset` ([dcat_dataset()])
+#'
+#' @example inst/examples/ex-dcat_contactPoint.R
 #'
 #' @export
 dcat_contactPoint <- function(nodeID = paste(sample(letters), collapse = ""),
