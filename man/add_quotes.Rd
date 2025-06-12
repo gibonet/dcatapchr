@@ -12,3 +12,10 @@ add_quotes(x)
 \description{
 Adds quotes to a character string
 }
+\examples{
+# Add quotes around a character string
+add_quotes("A character string")
+
+# Add quotes around a vector of strings
+add_quotes(c("a", "b"))
+}
