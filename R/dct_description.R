@@ -7,6 +7,7 @@
 #' @param description character string with a description
 #' @param language language of the title (one of "it", "de", "fr", "en")
 #'
+#' @example inst/examples/ex-dct_description.R
 #'
 #' @export
 dct_description <- function(description = "", language = "it") {
