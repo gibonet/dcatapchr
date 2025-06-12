@@ -14,3 +14,15 @@ Property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distr
 \description{
 Create a dcat:byteSize property in DCAT-AP CH standard
 }
+\examples{
+# Size (in bytes) of a file
+f <- system.file("cubi_POL_01_INFORMAZIONI.txt", package = "dcatapchr")
+s <- file.size(f)
+s
+
+# Create a dcat:byteSize tag
+dcat_byteSize(size = s)
+
+# Remove f and s
+rm(f, s)
+}

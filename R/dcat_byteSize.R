@@ -11,6 +11,7 @@
 #'
 #' Property of `dcat:Distribution` ([dcat_distribution()])
 #'
+#' @example inst/examples/ex-dcat_byteSize.R
 #'
 #' @export
 dcat_byteSize <- function(size = 0) {
