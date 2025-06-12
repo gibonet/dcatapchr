@@ -16,3 +16,6 @@ Mandatory property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{
 \description{
 Create a dcat:accessURL property in DCAT-AP CH standard
 }
+\examples{
+dcat_accessURL(access_url = "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip")
+}

@@ -10,6 +10,7 @@
 #'
 #' Mandatory property of `dcat:Distribution` ([dcat_distribution()])
 #'
+#' @example inst/examples/ex-dcat_accessURL.R
 #'
 #' @export
 dcat_accessURL <- function(access_url = "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip") {
