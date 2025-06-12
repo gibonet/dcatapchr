@@ -5,6 +5,9 @@
 #'
 #' @param x an url of a homepage
 #'
+#' @examples
+#' foaf_homepage(x = "http://www.example.com")
+#'
 #' @export
 foaf_homepage <- function(x = "http://www.example.com") {
   stopifnot(length(x) == 1L)

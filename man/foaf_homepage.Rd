@@ -12,3 +12,7 @@ foaf_homepage(x = "http://www.example.com")
 \description{
 Create a foaf:homepage tag
 }
+\examples{
+foaf_homepage(x = "http://www.example.com")
+
+}
