@@ -14,3 +14,8 @@ dcat_downloadURL(
 \description{
 Property of \code{dcat:Distribution} (\code{\link[=dcat_distribution]{dcat_distribution()}})
 }
+\examples{
+dcat_downloadURL(
+  download_url = "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip"
+)
+}

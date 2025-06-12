@@ -9,7 +9,7 @@
 #'
 #'
 #'
-#'
+#' @example inst/examples/ex-dcat_downloadURL.R
 #'
 #' @export
 dcat_downloadURL <- function(download_url = "https://www3.ti.ch/DFE/DR/USTAT/allegati/cubo/cubi_POL_01_csv.zip") {
