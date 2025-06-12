@@ -154,6 +154,7 @@ names(y$RDF$Catalog$dataset$Dataset)
 # To push on both remote repositories:
 # git push -u origin main    # push on gitlab
 # git push -u github main    # push on github
+# git push -u gibonet main   # push on github/gibonet
 
 # Does this work?
 # git push --all
