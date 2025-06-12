@@ -14,3 +14,7 @@ dct_modified(date = Sys.Date(), hour_minutes_seconds = "00:00:00")
 \description{
 Create a dct:modified property in DCAT-AP CH standard
 }
+\examples{
+dct_modified(date = "2001-12-31", hour_minutes_seconds = "10:00:00")
+
+}
