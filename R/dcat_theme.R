@@ -7,6 +7,9 @@
 #'
 #' @param x a theme url
 #'
+#' @examples
+#' dcat_theme(x = "http://dcat-ap.ch/vocabulary/themes/work")
+#'
 #' @export
 dcat_theme <- function(x = "http://dcat-ap.ch/vocabulary/themes/work") {
   stopifnot(length(x) == 1L)

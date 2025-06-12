@@ -12,3 +12,7 @@ dcat_theme(x = "http://dcat-ap.ch/vocabulary/themes/work")
 \description{
 Create a dcat:theme property in DCAT-AP CH standard
 }
+\examples{
+dcat_theme(x = "http://dcat-ap.ch/vocabulary/themes/work")
+
+}
